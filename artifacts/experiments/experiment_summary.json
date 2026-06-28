@@ -4828,7 +4828,7 @@
       "vDepSat": 500000,
       "vColSat": 500000,
       "baselineCSat": 2500000,
-      "crabHeCStarSat": 3000000,
+      "caliberCStarSat": 3000000,
       "kappa": 3,
       "linkedFeeSat": 500000,
       "linkedBurnSat": 2500000,
@@ -4876,7 +4876,7 @@
         }
       ]
     },
-    "crabHe": {
+    "caliber": {
       "scheme": "CALIBER",
       "bobUbSat": 3000000,
       "minerLbSat": 3000000,

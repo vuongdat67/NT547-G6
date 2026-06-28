@@ -1,0 +1,6 @@
+"feeSat","seed","success","artifact"
+"250","1","True","artifacts\onchain\signet\fee_profiles\fee_250_seed_1.json"
+"500","1","True","artifacts\onchain\signet\fee_profiles\fee_500_seed_1.json"
+"1000","1","True","artifacts\onchain\signet\fee_profiles\fee_1000_seed_1.json"
+"2500","1","True","artifacts\onchain\signet\fee_profiles\fee_2500_seed_1.json"
+"5000","1","True","artifacts\onchain\signet\fee_profiles\fee_5000_seed_1.json"

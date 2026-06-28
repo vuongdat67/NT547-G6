@@ -1,0 +1,6 @@
+"feeSat","seed","fundTxid","spendTxid","artifact"
+"250","1","f2e8a3f0470b70c77c469368d93ea202b5eaf6ba75fe5114e1a22a4716ca0b4a","9eeefffef248c8d408ab86b5a1aa869fed2de619ec564fd67d66aef269713cad","artifacts\onchain\signet\fee_profiles\fee_250_seed_1.json"
+"500","1","09170b374333ccce820a2ec1f67f6d45d3ee11d9a37ae1cca4a4023f6167ad53","b1082f4a475961832f78a916905ad90fcec0786aebf86428364537a2106fc255","artifacts\onchain\signet\fee_profiles\fee_500_seed_1.json"
+"1000","1","96307a7cf4e80390787c593f1f4fbb4bc660663a717771a091f521323c0ba3be","8896ab459cc367d0a8d22c1c8f4462f1168279e00ad5448fa9faddb3bf445ca2","artifacts\onchain\signet\fee_profiles\fee_1000_seed_1.json"
+"2500","1","c7c1e158790d5b34795d0c558ad3947f829c7615f2fcba49186492b3549f5db5","b72b55b3ed622916f2eba88fc6444e48c0a84888db927e1bb00dafa9168a056b","artifacts\onchain\signet\fee_profiles\fee_2500_seed_1.json"
+"5000","1","f6ab049e39b0d4cdf02ac08821fdf0d980b0a4d8d7424d01dd5d1f88fd40a33a","4ba57d7fd5bde80335ab3322858335aa6bac48ea1824a4ca4cf9a4e851dc3494","artifacts\onchain\signet\fee_profiles\fee_5000_seed_1.json"
