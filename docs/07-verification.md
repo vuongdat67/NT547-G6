@@ -34,7 +34,7 @@ artifact consistency checks passed
 | CALIBER at c* not jointly profitable | Defense claim holds |
 | Baseline timeline width > 0 | Attack exists |
 | CALIBER timeline width = 0 | Defense succeeds |
-| 15 fee profile runs per network | Campaign completeness |
+| 5 (signet) or 15 (regtest) fee profile runs | Campaign completeness |
 | All fee profile runs accepted | Campaign success |
 
 ## 2. Submission Report
@@ -71,27 +71,28 @@ go run ./cmd/submission_report
 - [ ] `go run ./cmd/eval_report` — tx table, CLBA summary, coalition diagnostic
 - [ ] `go run ./cmd/publish_results` — LaTeX tables, SVG figures
 - [ ] `go run ./cmd/submission_report` — reviewer report
-- [ ] `go run ./cmd/verify_artifacts` — all checks pass (expected: missing on-chain artifacts reported, analytical checks pass)
+- [ ] `go run ./cmd/verify_artifacts` — all checks pass
 
 ### On-Chain Regtest
 
 - [ ] Wallet `CALIBER` created and funded (101 blocks)
 - [ ] Single linked ACS deploy succeeds (Table 3)
 - [ ] Fee profile campaign: 5 fees × 3 seeds = 15/15 accepted (Table 4)
-- [ ] Variance data: 10 runs via orchestrator
+- [ ] Variance data: 100 runs via orchestrator
 
 ### On-Chain Signet
 
 - [ ] Wallet `CALIBER1` (experiment) and `CALIBER2` (vault) created
-- [ ] CALIBER1 funded with ≥0.06 BTC
+- [ ] CALIBER1 funded with ≥0.06 BTC, remainder to CALIBER2
 - [ ] Single linked ACS deploy succeeds (Table 3)
 - [ ] Fee profile campaign: 5 fees × 1 seed = 5/5 accepted (Table 4)
 - [ ] Leftovers swept from CALIBER1 → CALIBER2
 
 ### Visualization
 
-- [ ] `uv run scripts/plots/generate_all_plots.py` — all 18 plots generated
-- [ ] Plot images readable in `artifacts/publication/`
+- [ ] `uv run scripts/plots/generate_all_plots.py` — all 20 plots + 3 HTMLs generated
+- [ ] Plot images readable in `artifacts/publication/regtest/`
+- [ ] Interactive HTMLs readable in `artifacts/publication/plotly/`
 
 ### Final Verification
 
@@ -105,7 +106,7 @@ go run ./cmd/submission_report
 | Collateral-only fails | `attack_decisions.json`, `parameter_sweep.csv` | Width unchanged at \(c' = 2c\) |
 | CALIBER closes interval | `attack_decisions.json` | Width = 0 at \(c^*\) |
 | Linked ACS script-feasible | `linked_acs_regtest.json`, `linked_acs_signet.json` | Fund + spend confirmed |
-| Fee-profile succeeds | `fee_profile_summary.csv` | 15/15 accepted per network |
+| Fee-profile succeeds | `fee_profile_summary.csv` (both networks) | All runs accepted |
 | Parallel swaps linear | `parallel_swaps_table.csv` | \(c^*_n = v + n \cdot v_{dep}\) |
 | Overhead minimal | `tx_size_evidence.json` | Commit = 281 vB (−2 vs CRAB) |
 
@@ -127,22 +128,22 @@ artifacts/
 │   ├── parameter_sweep.csv
 │   └── regtest_variance.csv
 ├── onchain/
-│   └── regtest/
-│       └── fee_profiles/
-│           ├── fee_profile_summary.csv
-│           ├── fee_profile_summary.json
-│           └── fee_*_seed_*.json (15 files)
-├── crab_he_results.json
-├── crab_he_results.md
+│   ├── regtest/fee_profiles/
+│   │   ├── fee_*_seed_*.json (15 files)
+│   │   ├── fee_profile_summary.{csv,json}
+│   │   └── fee_profile_txids.{csv,json}
+│   └── signet/fee_profiles/
+│       ├── fee_*_seed_1.json (5 files)
+│       ├── fee_profile_summary.{csv,json}
+│       └── fee_profile_txids.{csv,json}
+├── publication/
+│   ├── regtest/          (20 PNGs: paper_evaluation_grid + plot_01–18)
+│   └── plotly/           (3 interactive HTMLs)
 ├── linked_acs_regtest.json
+├── linked_acs_signet.json
+├── caliber_results.{json,md}
 ├── submission_report.md
-├── tx_size_evidence.json
-├── tx_size_evidence.md
-└── publication/
-    ├── fig_parallel_swaps_cnstar.svg
-    ├── publication_manifest.json
-    ├── table_parallel_swaps.tex
-    └── plot_*.png (18 files)
+└── tx_size_evidence.{json,md}
 ```
 
 ## 6. Invariant Summary

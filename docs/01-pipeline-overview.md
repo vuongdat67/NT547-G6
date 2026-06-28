@@ -42,10 +42,10 @@ go run ./cmd/submission_report
 Validates linked ACS script-path execution on a local regtest network. Free to run.
 
 ### Stage 3 — On-chain Signet (Bitcoin Core signet)
-Same script validation on a public test network. Requires real testnet BTC (budget: ~0.055 BTC).
+Same script validation on a public test network. Requires real testnet BTC (budget: ~0.055 BTC). Uses 2-wallet strategy: CALIBER1 (experiment, 0.06 BTC) and CALIBER2 (vault).
 
 ### Stage 4 — Visualization
-Reads analytical + on-chain artifacts and generates 18 publication-quality figures.
+Reads analytical + on-chain artifacts and generates **20 publication-quality PNGs + 3 interactive Plotly HTMLs**. Output path is configurable via `PUBLICATION_SUBDIR` env var (default: `regtest`).
 
 ### Stage 5 — Verification
 Checks artifact consistency, invariants, and completeness.
@@ -65,7 +65,7 @@ Checks artifact consistency, invariants, and completeness.
 
 ```
 artifacts/
-├── experiments/           # Analytical experiment outputs
+├── experiments/               # Analytical pipeline outputs
 │   ├── experiment_summary.json
 │   ├── parameter_sweep.csv
 │   ├── attack_decisions.json
@@ -75,16 +75,22 @@ artifacts/
 │   ├── kappa_window_table.csv
 │   └── regtest_variance.csv
 ├── onchain/
-│   ├── regtest/fee_profiles/    # 15 run artifacts + summaries
-│   └── signet/fee_profiles/     # (after signet stage)
-├── publication/                 # Plots, tables, figures
-│   ├── plot_*.png               # 18 visualizations
-│   ├── table_parallel_swaps.tex
-│   └── fig_parallel_swaps_cnstar.svg
-├── linked_acs_regtest.json      # Single deploy evidence
-├── crab_he_results.{json,md}    # Eval report
-├── submission_report.md         # Reviewer-facing summary
-└── tx_size_evidence.{json,md}   # Serialized tx measurements
+│   ├── regtest/fee_profiles/       # 15 run artifacts + summaries
+│   │   ├── fee_*_seed_*.json       # 15 individual artifacts
+│   │   ├── fee_profile_summary.{csv,json}
+│   │   └── fee_profile_txids.{csv,json}
+│   └── signet/fee_profiles/        # 5 run artifacts + summaries
+│       ├── fee_*_seed_1.json       # 5 individual artifacts
+│       ├── fee_profile_summary.{csv,json}
+│       └── fee_profile_txids.{csv,json}
+├── publication/
+│   ├── regtest/                    # 20 PNGs (or signet/ if PUBLICATION_SUBDIR=signet)
+│   └── plotly/                     # 3 interactive HTMLs
+├── linked_acs_regtest.json         # Single deploy evidence (regtest)
+├── linked_acs_signet.json          # Single deploy evidence (signet)
+├── caliber_results.{json,md}       # Eval report
+├── submission_report.md            # Reviewer-facing summary
+└── tx_size_evidence.{json,md}      # Serialized tx measurements
 ```
 
 ## 5. Scope & Non-Claims

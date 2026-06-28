@@ -46,8 +46,8 @@ Runs the analytical pipeline plus linked ACS script execution on Bitcoin regtest
 
 ```powershell
 # 2a. Create and fund the CALIBER wallet (first time only)
-& "E:\Bitcoin\daemon\bitcoin-cli.exe" -regtest createwallet "CALIBER"
-& "E:\Bitcoin\daemon\bitcoin-cli.exe" -regtest -rpcwallet=CALIBER -generate 101
+& "E:\Bitcoin\daemon\bitcoin-cli.exe" -regtest -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin.conf" createwallet "CALIBER"
+& "E:\Bitcoin\daemon\bitcoin-cli.exe" -regtest -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin.conf" -rpcwallet=CALIBER -generate 101
 
 # 2b. Single linked ACS deploy (paper Table 3)
 go run ./scripts/deploy_linked_acs.go -bitcoin-cli "E:\Bitcoin\daemon\bitcoin-cli.exe" -network regtest -wallet CALIBER -fund-sat 3000000 -fee-sat 500000 -try-load-wallet
@@ -55,7 +55,7 @@ go run ./scripts/deploy_linked_acs.go -bitcoin-cli "E:\Bitcoin\daemon\bitcoin-cl
 # 2c. Fee-profile campaign: 5 fees × 3 seeds = 15 runs (paper Table 4)
 .\scripts\regtest_fee_profiles.ps1 -BitcoinCli "E:\Bitcoin\daemon\bitcoin-cli.exe" -WalletName CALIBER -FundSat 3000000
 
-# 2d. Variance data: 10 timing runs for plots
+# 2d. Variance data: 100 timing runs for plots (config.json: num_runs=100)
 uv run scripts/core/orchestrator.py regtest
 ```
 
@@ -65,14 +65,14 @@ Requires signet node with funded wallet.
 
 ```powershell
 # 3a. Create 2 wallets for fund safety (first time only)
-& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet createwallet "CALIBER1"
-& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet createwallet "CALIBER2"
+& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin-signet.conf" createwallet "CALIBER1"
+& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin-signet.conf" createwallet "CALIBER2"
 
 # Fund CALIBER1 with ~0.06 BTC and CALIBER2 with remaining ~0.13 BTC
 # (send from your existing signet wallet)
 
 # 3b. Single linked ACS deploy (paper Table 3)
-go run ./scripts/deploy_linked_acs.go -bitcoin-cli "E:\Bitcoin\daemon\bitcoin-cli.exe" -network signet -wallet CALIBER1 -fund-sat 3000000 -fee-sat 500000 -try-load-wallet -max-wait-seconds 600
+go run ./scripts/deploy_linked_acs.go -bitcoin-cli "E:\Bitcoin\daemon\bitcoin-cli.exe" -network signet -wallet CALIBER1 -fund-sat 3000000 -fee-sat 500000 -try-load-wallet -datadir "E:\Bitcoin\data" -conf "E:\Bitcoin\bitcoin-signet.conf" -max-wait-seconds 600
 
 # 3c. Fee-profile: 5 fees × 1 seed = 5 runs (paper Table 4)
 .\scripts\signet_fee_profiles.ps1 -BitcoinCli "E:\Bitcoin\daemon\bitcoin-cli.exe" -WalletName CALIBER1 -FundSat 500000
@@ -81,11 +81,34 @@ go run ./scripts/deploy_linked_acs.go -bitcoin-cli "E:\Bitcoin\daemon\bitcoin-cl
 # (see onchain-signet guide for details)
 ```
 
-## 4. Visualization (requires regtest data)
+## 4. Visualization
 
 ```powershell
-# Generate all 18 publication plots
+# Generate all 20 publication PNGs + 3 interactive HTMLs
 uv run scripts/plots/generate_all_plots.py
+
+# Generate for signet output folder instead:
+$env:PUBLICATION_SUBDIR = "signet"
+uv run scripts/plots/generate_all_plots.py
+```
+
+**Output organization:**
+```
+artifacts/publication/
+├── regtest/                # 20 PNGs (or signet/ if PUBLICATION_SUBDIR=signet)
+│   ├── paper_evaluation_grid.png
+│   ├── plot_01_cdf_box_violin.png
+│   ├── ...
+│   └── plot_18_radar_comparison.png
+└── plotly/                 # 3 interactive HTMLs (network-independent)
+    ├── interactive_caliber_width_vs_collateral.html
+    ├── interactive_kappa_window_probability.html
+    └── interactive_parallel_swaps_cnstar.html
+```
+
+Output paths are controlled via `scripts/plots/config.py`. Override with:
+```powershell
+$env:PUBLICATION_SUBDIR = "signet"    # targets artifacts/publication/signet/
 ```
 
 ## 5. Verification
@@ -107,22 +130,25 @@ go run ./cmd/verify_artifacts
 | Collateral-only \(c'=2c\) | ✓ | ✓ | 2,500,000 |
 | CALIBER \(c^*\) | ✗ | ✗ | 0 |
 
-### On-Chain Evidence (regtest)
+### On-Chain Evidence
 
-| Fee (sat) | Runs | Accepted |
-|-----------|:----:|:--------:|
-| 250–5000 | 15 | 15 |
-| **Total** | **15** | **15/15** |
+| Network | Fee Range (sat) | Runs | Accepted |
+|---------|:--------------:|:----:|:--------:|
+| Regtest | 250–5000 | 15 | 15/15 |
+| Signet  | 250–5000 | 5  | 5/5 |
 
 ## File Manifest After Full Pipeline
 
 ```
 artifacts/
-├── experiments/ (9 files)
-├── onchain/regtest/fee_profiles/ (≈17 files)
-├── publication/ (≈20 files: PNG, TeX, SVG, JSON)
+├── experiments/             (9 files)
+├── onchain/regtest/fee_profiles/ (≈19 files)
+├── onchain/signet/fee_profiles/  (≈9 files)
+├── publication/regtest/     (20 PNGs)
+├── publication/plotly/      (3 interactive HTMLs)
 ├── linked_acs_regtest.json
-├── crab_he_results.{json,md}
+├── linked_acs_signet.json
+├── caliber_results.{json,md}
 ├── submission_report.md
 └── tx_size_evidence.{json,md}
 ```

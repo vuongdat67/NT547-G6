@@ -26,12 +26,12 @@ Signet uses real testnet BTC. Each `deploy_linked_acs.go` run **burns** the `fun
 
 ```powershell
 # CALIBER2 → CALIBER1 (refill if needed)
-$addr1 = & "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -rpcwallet=CALIBER1 getnewaddress
-& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -rpcwallet=CALIBER2 sendtoaddress $addr1 0.01
+$addr1 = & "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin-signet.conf" -rpcwallet=CALIBER1 getnewaddress
+& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin-signet.conf" -rpcwallet=CALIBER2 sendtoaddress $addr1 0.01
 
 # CALIBER1 → CALIBER2 (sweep leftovers after experiments)
-$addr2 = & "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -rpcwallet=CALIBER2 getnewaddress
-& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -rpcwallet=CALIBER1 sendtoaddress $addr2 <remaining_balance>
+$addr2 = & "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin-signet.conf" -rpcwallet=CALIBER2 getnewaddress
+& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin-signet.conf" -rpcwallet=CALIBER1 sendtoaddress $addr2 <remaining_balance>
 ```
 
 ## 2. Budget Planning
@@ -51,35 +51,36 @@ $addr2 = & "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -rpcwallet=CALIBER2 getne
 
 ```powershell
 # Check sync status
-& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin.conf" getblockchaininfo
+& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin-signet.conf" getblockchaininfo
 
 # Check budget
-& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -rpcwallet=CALIBER1 getbalance
+& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin-signet.conf" -rpcwallet=CALIBER1 getbalance
 ```
 
 ## 4. Wallet Setup (First Time)
 
 ```powershell
 # Create experiment and vault wallets
-& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet createwallet "CALIBER1"
-& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet createwallet "CALIBER2"
+& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin-signet.conf" createwallet "CALIBER1"
+& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin-signet.conf" createwallet "CALIBER2"
 
 # Fund CALIBER1 with exactly 0.06 BTC
 # (send from your existing funded signet wallet)
 ```
 
-**Important:** Signet wallets must be loaded before use. The deploy script auto-loads with `-try-load-wallet`.
+**Important:** Signet wallets must be loaded before use. The deploy script auto-loads with `-try-load-wallet`. All signet commands require `-datadir` and `-conf` flags pointing to your signet config.
 
 ## 5. Single Profile Deploy (Paper Table 3)
 
 Analytical profile: fund=3,000,000 sat, fee=500,000 sat.
 
 ```powershell
-go run ./scripts/deploy_linked_acs.go -bitcoin-cli "E:\Bitcoin\daemon\bitcoin-cli.exe" -network signet -wallet CALIBER1 -fund-sat 3000000 -fee-sat 500000 -try-load-wallet -max-wait-seconds 600
+go run ./scripts/deploy_linked_acs.go -bitcoin-cli "E:\Bitcoin\daemon\bitcoin-cli.exe" -network signet -wallet CALIBER1 -fund-sat 3000000 -fee-sat 500000 -try-load-wallet -datadir "E:\Bitcoin\data" -conf "E:\Bitcoin\bitcoin-signet.conf" -max-wait-seconds 600
 ```
 
 **Key differences from regtest:**
 - No auto-mining (must wait for signet blocks)
+- Requires `-datadir` and `-conf` flags for signet config
 - Requires `-max-wait-seconds` (default 600s = 10 min)
 - Mempool acceptance may take longer
 
@@ -103,26 +104,37 @@ artifacts/onchain/signet/fee_profiles/
 ├── fee_1000_seed_1.json
 ├── fee_2500_seed_1.json
 ├── fee_5000_seed_1.json
-├── fee_profile_summary.csv
-├── fee_profile_summary.json
-├── fee_profile_txids.csv
-└── fee_profile_txids.json
+├── fee_profile_summary.{csv,json}
+└── fee_profile_txids.{csv,json}
 ```
 
-## 7. Post-Experiment Cleanup
+## 7. Deploy Script Flags (Signet)
+
+When targeting signet, these flags are essential:
+
+| Flag | Required? | Typical Value |
+|------|-----------|-------------|
+| `-network` | yes | `signet` |
+| `-wallet` | yes | `CALIBER1` |
+| `-datadir` | yes | `E:\Bitcoin\data` |
+| `-conf` | yes | `E:\Bitcoin\bitcoin-signet.conf` |
+| `-max-wait-seconds` | recommended | `600` |
+| `-try-load-wallet` | yes | auto-enabled |
+
+## 8. Post-Experiment Cleanup
 
 ```powershell
 # Get CALIBER2 deposit address
-$vault_addr = & "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -rpcwallet=CALIBER2 getnewaddress
+$vault_addr = & "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin-signet.conf" -rpcwallet=CALIBER2 getnewaddress
 
-# Sweep remaining CALIBER1 balance
-& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -rpcwallet=CALIBER1 sendtoaddress $vault_addr <remaining_balance>
+# Sweep remaining CALIBER1 balance (leave ~0.0001 BTC for fees)
+& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin-signet.conf" -rpcwallet=CALIBER1 sendtoaddress $vault_addr 0.0049
 
 # Verify vault received
-& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -rpcwallet=CALIBER2 getbalance
+& "E:\Bitcoin\daemon\bitcoin-cli.exe" -signet -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin-signet.conf" -rpcwallet=CALIBER2 getbalance
 ```
 
-## 8. What Gets Consumed Per Run
+## 9. What Gets Consumed Per Run
 
 Each linked ACS deploy burns:
 
@@ -135,12 +147,13 @@ The spend transaction output:
 
 **There is no recovery path.** The pre-signed template only authorizes the fixed burn+fee outputs.
 
-## 9. Troubleshooting
+## 10. Troubleshooting
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
 | `wallet not found` | CALIBER1 not created | Run `createwallet "CALIBER1"` |
 | `insufficient funds` | Budget too low | Send more from CALIBER2 |
+| `Invalid combination` | Missing `-datadir`/`-conf` | Add both flags pointing to signet config |
 | `mempool rejection` | Fee rate below network policy | Use `-max-burn-btc` with computed value (default handles this) |
 | `timeout waiting for funding` | Signet block not mined yet | Increase `-max-wait-seconds` or check `getblockchaininfo` |
 | `too-long-mempool-chain` | Unconfirmed parent chain | Deploy waits for prior confirmations; increase `-max-wait-seconds` |

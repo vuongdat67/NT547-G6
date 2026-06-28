@@ -15,17 +15,16 @@ The regtest stage validates that CALIBER's linked Taproot ACS script can be:
 
 ```powershell
 # Create wallet (first time only)
-& "E:\Bitcoin\daemon\bitcoin-cli.exe" -regtest createwallet "CALIBER"
+& "E:\Bitcoin\daemon\bitcoin-cli.exe" -regtest -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin.conf" createwallet "CALIBER"
 
 # Fund with 101 blocks (coinbase maturity)
-& "E:\Bitcoin\daemon\bitcoin-cli.exe" -regtest -rpcwallet=CALIBER -generate 101
+& "E:\Bitcoin\daemon\bitcoin-cli.exe" -regtest -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin.conf" -rpcwallet=CALIBER -generate 101
 
 # Verify balance
-& "E:\Bitcoin\daemon\bitcoin-cli.exe" -regtest -rpcwallet=CALIBER getbalance
-# Expected: 12.5 BTC (or more)
+& "E:\Bitcoin\daemon\bitcoin-cli.exe" -regtest -datadir="E:\Bitcoin\data" -conf="E:\Bitcoin\bitcoin.conf" -rpcwallet=CALIBER getbalance
 ```
 
-The config.json uses `wallet_name: "CALIBER"` to ensure all scripts target this wallet.
+The `config.json` uses `wallet_name: "CALIBER"` to ensure all scripts target this wallet.
 
 ## 3. Single Profile Deploy (Paper Table 3)
 
@@ -81,8 +80,8 @@ artifacts/onchain/regtest/fee_profiles/
 ├── fee_500_seed_1.json
 ├── ...
 ├── fee_5000_seed_3.json
-├── fee_profile_summary.csv
-└── fee_profile_summary.json
+├── fee_profile_summary.{csv,json}
+└── fee_profile_txids.{csv,json}
 ```
 
 ## 5. Variance Data (Plots)
@@ -90,12 +89,15 @@ artifacts/onchain/regtest/fee_profiles/
 Captures end-to-end latency measurements for visualization.
 
 ```powershell
+# Runs 100 consecutive linked ACS deploys (config.json: num_runs=100)
 uv run scripts/core/orchestrator.py regtest
 ```
 
-**Output:** `artifacts/experiments/regtest_variance.csv`
+**Outputs:**
+- `artifacts/experiments/regtest_variance.csv` — `run_id, timestamp, latency_ms` (100 runs)
+- `artifacts/onchain/repeated_onchain_runs.csv` — deployment duration data
 
-Contains: `run_id, timestamp, latency_ms` for 10 consecutive linked ACS deploys.
+**Config-driven:** The orchestrator reads `fund_sat`, `fee_sat`, and `wallet_name` from `config.json` per network. To adjust number of runs, edit `num_runs` in `config.json`.
 
 ## 6. Script Architecture
 
@@ -123,11 +125,27 @@ Leaf Linked: OP_SHA256 <H(r^j_a)> OP_EQUALVERIFY
 - `burnValue = fund-sat - fee-sat` → OP_RETURN (provably unspendable)
 - Miner reward = `fee-sat` via transaction fee (coinbase)
 
-## 7. Troubleshooting
+## 7. Deploy Script Flags
+
+The `deploy_linked_acs.go` script supports these flags:
+
+| Flag | Default | Description |
+|------|---------|-------------|
+| `-bitcoin-cli` | `bitcoin-cli` | Path to bitcoin-cli executable |
+| `-network` | `regtest` | Network: regtest or signet |
+| `-wallet` | `CALIBER` | Wallet name |
+| `-fund-sat` | `3000000` | Funding amount in satoshis |
+| `-fee-sat` | `500000` | Miner reward in satoshis |
+| `-datadir` | `""` | Bitcoin data directory |
+| `-conf` | `""` | Bitcoin config file path |
+| `-try-load-wallet` | `true` | Auto-load wallet before RPC calls |
+| `-max-wait-seconds` | `120` | Max wait for tx visibility |
+
+## 8. Troubleshooting
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
 | `wallet not found` | Wallet not created | Run `createwallet "CALIBER"` first |
 | `insufficient funds` | Wallet balance too low | Run `-generate 101` |
 | `mempool rejection` | Fee rate too low | Check `-fee-sat` is reasonable (≥250) |
-| `-datadir required` | Node needs config path | Add `-datadir=E:\Bitcoin\data -conf=E:\Bitcoin\bitcoin.conf` |
+| `connect to server` | Bitcoin Core not running | Start bitcoind with correct config |
