@@ -104,7 +104,8 @@ func checkFeeProfile(path string) {
 	if err != nil {
 		fail("parse %s: %v", path, err)
 	}
-	assert(len(rows) == 16, "%s must contain 15 fee-profile runs plus header", path)
+	// Regtest: 5 fees × 3 seeds = 15 runs + header. Signet: 5 fees × 1 seed = 5 runs + header.
+	assert(len(rows) == 6 || len(rows) == 16, "%s must contain 5 or 15 fee-profile runs plus header (got %d rows)", path, len(rows))
 	for i, row := range rows[1:] {
 		assert(len(row) >= 3, "%s row %d has too few columns", path, i+2)
 		assert(row[2] == "True" || row[2] == "true", "%s row %d must be accepted", path, i+2)

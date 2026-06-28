@@ -54,8 +54,8 @@ type coalitionSummary struct {
 type clbaSummary struct {
 	CRABRationalWidthSat  string `json:"crabRationalWidthSat"`
 	CRABByzantineWidthSat string `json:"crabByzantineWidthSat"`
-	CALIBERWidthSat        string `json:"crabHeWidthSat"`
-	CALIBERInfeasible      bool   `json:"crabHeInfeasible"`
+	CALIBERWidthSat        string `json:"caliberWidthSat"`
+	CALIBERInfeasible      bool   `json:"caliberInfeasible"`
 	CStarSat              string `json:"cStarSat"`
 }
 
@@ -97,8 +97,8 @@ func main() {
 	}
 
 	must(os.MkdirAll("artifacts", 0o755))
-	jsonPath := filepath.Join("artifacts", "crab_he_results.json")
-	mdPath := filepath.Join("artifacts", "crab_he_results.md")
+	jsonPath := filepath.Join("artifacts", "caliber_results.json")
+	mdPath := filepath.Join("artifacts", "caliber_results.md")
 	evidenceJSONPath := filepath.Join("artifacts", "tx_size_evidence.json")
 	evidenceMDPath := filepath.Join("artifacts", "tx_size_evidence.md")
 
@@ -310,8 +310,8 @@ func toMarkdown(r report) string {
 	sb.WriteString("\n## 3) CLBA Summary\n\n")
 	sb.WriteString(fmt.Sprintf("- crab_rational_width_sat: %s\n", r.CLBASummary.CRABRationalWidthSat))
 	sb.WriteString(fmt.Sprintf("- crab_byzantine_width_sat: %s\n", r.CLBASummary.CRABByzantineWidthSat))
-	sb.WriteString(fmt.Sprintf("- crab_he_width_sat: %s\n", r.CLBASummary.CALIBERWidthSat))
-	sb.WriteString(fmt.Sprintf("- crab_he_infeasible: %t\n", r.CLBASummary.CALIBERInfeasible))
+	sb.WriteString(fmt.Sprintf("- caliber_width_sat: %s\n", r.CLBASummary.CALIBERWidthSat))
+	sb.WriteString(fmt.Sprintf("- caliber_infeasible: %t\n", r.CLBASummary.CALIBERInfeasible))
 	sb.WriteString(fmt.Sprintf("- c_star_sat: %s\n", r.CLBASummary.CStarSat))
 
 	sb.WriteString("\n## 4) Coalition Summary\n\n")

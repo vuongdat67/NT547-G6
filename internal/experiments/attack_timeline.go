@@ -8,7 +8,7 @@ type AttackTimelineReport struct {
 	GeneratedAtUTC string             `json:"generatedAtUtc"`
 	Profile        AttackProfile      `json:"profile"`
 	Baseline       AttackScenario     `json:"baselineCrabPlusHe"`
-	CALIBER         AttackScenario     `json:"crabHe"`
+	CALIBER         AttackScenario     `json:"caliber"`
 	Rows           []AttackSummaryRow `json:"rows"`
 	Notes          []string           `json:"notes"`
 }
@@ -18,7 +18,7 @@ type AttackProfile struct {
 	VDepSat         int64 `json:"vDepSat"`
 	VColSat         int64 `json:"vColSat"`
 	BaselineCSat    int64 `json:"baselineCSat"`
-	CALIBERCStarSat  int64 `json:"crabHeCStarSat"`
+	CALIBERCStarSat  int64 `json:"caliberCStarSat"`
 	Kappa           int   `json:"kappa"`
 	LinkedFeeSat    int64 `json:"linkedFeeSat"`
 	LinkedBurnSat   int64 `json:"linkedBurnSat"`
@@ -72,17 +72,17 @@ func BuildAttackTimelineReport() AttackTimelineReport {
 	}
 
 	baseline := buildBaselineAttackScenario(profile)
-	crabHe := buildCALIBERAttackScenario(profile)
+	caliberScenario := buildCALIBERAttackScenario(profile)
 	rows := []AttackSummaryRow{
 		scenarioRow(baseline),
-		scenarioRow(crabHe),
+		scenarioRow(caliberScenario),
 	}
 
 	return AttackTimelineReport{
 		GeneratedAtUTC: time.Now().UTC().Format(time.RFC3339),
 		Profile:        profile,
 		Baseline:       baseline,
-		CALIBER:         crabHe,
+		CALIBER:         caliberScenario,
 		Rows:           rows,
 		Notes: []string{
 			"The replay is a deterministic incentive-model simulation, not a mainnet incident claim.",
