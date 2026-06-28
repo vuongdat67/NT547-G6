@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-05-25T08:26:41Z",
+  "generatedAtUtc": "2026-06-28T07:37:05Z",
   "scope": "deterministic SDRBA-style payoff mock; no production miner bribery marketplace is implemented",
   "profile": {
     "vSat": 2500000,
@@ -40,7 +40,7 @@
       "sideDealDescription": "Bob offers BR to one actively rational miner to censor CRAB revocation and HTLC honest paths."
     },
     {
-      "scheme": "CRAB-He c*=v+v_dep-eps",
+      "scheme": "CALIBER c*=v+v_dep-eps",
       "offeredBrSat": 2999500,
       "bobUbSat": 3000000,
       "minerLbSat": 2999000,
@@ -55,7 +55,7 @@
       "sideDealDescription": "Bob offers BR, but dep-B reveals pre_b and linked ACS removes c from Bob's transferable budget."
     },
     {
-      "scheme": "CRAB-He c*=v+v_dep",
+      "scheme": "CALIBER c*=v+v_dep",
       "offeredBrSat": 0,
       "bobUbSat": 3000000,
       "minerLbSat": 3000000,
@@ -70,7 +70,7 @@
       "sideDealDescription": "Bob offers BR, but dep-B reveals pre_b and linked ACS removes c from Bob's transferable budget."
     },
     {
-      "scheme": "CRAB-He c*=v+v_dep+eps",
+      "scheme": "CALIBER c*=v+v_dep+eps",
       "offeredBrSat": 0,
       "bobUbSat": 3000000,
       "minerLbSat": 3001000,
@@ -88,6 +88,6 @@
   "notes": [
     "Baseline uses Bob-UB = v+c+v_dep and Miner-LB = c+v_col.",
     "Collateral-only inflation preserves width because c' appears on both sides.",
-    "CRAB-He uses Bob-UB = v+v_dep and Miner-LB = c; at c=v+v_dep the bribe interval is empty."
+    "CALIBER uses Bob-UB = v+v_dep and Miner-LB = c; at c=v+v_dep the bribe interval is empty."
   ]
 }

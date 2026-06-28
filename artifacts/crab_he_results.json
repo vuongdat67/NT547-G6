@@ -1,6 +1,6 @@
 {
-  "generatedAtUtc": "2026-05-19T12:35:18Z",
-  "source": "crab-he local implementation and deployment artifacts",
+  "generatedAtUtc": "2026-06-28T07:38:01Z",
+  "source": "caliber local implementation and deployment artifacts",
   "txTable": [
     {
       "name": "tx_fund",
@@ -150,34 +150,7 @@
       "txHex": "0100000000010100000000000000000000000000000000000000000000000000000000000000000000000000ffffffff03d012130000000000232102466d7fcae563e5cb09a0d1870bb580344804617879a14949cf22285f1bae3f27ac90d94000000000004e632102466d7fcae563e5cb09a0d1870bb580344804617879a14949cf22285f1bae3f27ac67029000b27521034f355bdcb7cc0af728ef3cceb9615d90684bb5b2ca5f859ab0f0b704075871aaac68c0c62d000000000022512070bda62dd5669ebf9442a714cbcb34f425f0edcf14a07b826019ba81929baabc040049303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030304931313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131475221034f355bdcb7cc0af728ef3cceb9615d90684bb5b2ca5f859ab0f0b704075871aa2102466d7fcae563e5cb09a0d1870bb580344804617879a14949cf22285f1bae3f2752ae00000000"
     }
   ],
-  "linkedDeployments": [
-    {
-      "network": "regtest",
-      "wallet": "hehtlc_research",
-      "linkedACSAddress": "bcrt1prylu0syefure83pwvkcghwg7fa2mse6cmdx66srrlwpqz59sfjqspej2v6",
-      "fundTxid": "6aceae598d61ae2256508a4bdafc43568c77045f04f91fcca147c6423563038e",
-      "fundVout": 0,
-      "fundValueSat": 3000000,
-      "spendTxid": "5a64ec6a227bd6dc481e37e764d17712314933978bb7cdb9569adbdaff134245",
-      "spendValueSat": 2500000,
-      "feeSat": 500000,
-      "witnessOrder": "\u003csig_B\u003e \u003csig_A\u003e \u003cpre_b\u003e \u003cr^j_a\u003e \u003clinkedLeafScript\u003e \u003ccontrolBlock\u003e",
-      "createdAtUtc": "2026-04-08T12:25:56Z"
-    },
-    {
-      "network": "signet",
-      "wallet": "hehtlc_research",
-      "linkedACSAddress": "tb1pt0msd9g3urre3f2xxun3tdlvvcj9evc6ksd242sdy0lcagtuf2psjnz90e",
-      "fundTxid": "d77febbc5f3778d089955541bfa881d86d1db7ec0720a5ef6d71c0eaa598deaa",
-      "fundVout": 0,
-      "fundValueSat": 3000000,
-      "spendTxid": "e9b820874ff5aa2f3b5da2e0f8a8283d2091482731fa4a7279b8703aee80074f",
-      "spendValueSat": 2500000,
-      "feeSat": 500000,
-      "witnessOrder": "\u003csig_B\u003e \u003csig_A\u003e \u003cpre_b\u003e \u003cr^j_a\u003e \u003clinkedLeafScript\u003e \u003ccontrolBlock\u003e",
-      "createdAtUtc": "2026-04-08T13:55:45Z"
-    }
-  ],
+  "linkedDeployments": [],
   "clbaSummary": {
     "crabRationalWidthSat": "2500000",
     "crabByzantineWidthSat": "2500000",

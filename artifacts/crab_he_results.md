@@ -1,6 +1,6 @@
-# CRAB-He Evaluation Results (Generated)
+# CALIBER Evaluation Results (Generated)
 
-Generated at: 2026-05-19T12:35:18Z
+Generated at: 2026-06-28T07:38:01Z
 
 Reference BTC price for fee conversion: $26,900/BTC (aligned with CRAB).
 
@@ -31,10 +31,7 @@ Formula: vbytes = ceil(weight / 4), weight = base*3 + total, witness = total - b
 
 ## 2) Linked ACS On-chain Evidence
 
-| network | wallet | fund_txid | spend_txid | fund_vout | fund_value_sat | spend_value_sat | fee_sat | witness_order |
-|---|---|---|---|---:|---:|---:|---:|---|
-| regtest | hehtlc_research | 6aceae598d61ae2256508a4bdafc43568c77045f04f91fcca147c6423563038e | 5a64ec6a227bd6dc481e37e764d17712314933978bb7cdb9569adbdaff134245 | 0 | 3000000 | 2500000 | 500000 | <sig_B> <sig_A> <pre_b> <r^j_a> <linkedLeafScript> <controlBlock> |
-| signet | hehtlc_research | d77febbc5f3778d089955541bfa881d86d1db7ec0720a5ef6d71c0eaa598deaa | e9b820874ff5aa2f3b5da2e0f8a8283d2091482731fa4a7279b8703aee80074f | 0 | 3000000 | 2500000 | 500000 | <sig_B> <sig_A> <pre_b> <r^j_a> <linkedLeafScript> <controlBlock> |
+No linked_acs artifacts found. Run deploy script first.
 
 ## 3) CLBA Summary
 
@@ -46,7 +43,7 @@ Formula: vbytes = ceil(weight / 4), weight = base*3 + total, witness = total - b
 
 ## 4) Coalition Summary
 
-> **DIAGNOSTIC ONLY** — values in this section are interpretive support under the He-HTLC SDRBA standalone assumptions and are NOT claimed as composed-model theorems. Do not cite these rows as security proofs for CRAB-He coalition resistance; see Lemma (Coalition censorship probability) in the paper for the theorem-level statement.
+> **DIAGNOSTIC ONLY** — values in this section are interpretive support under the He-HTLC SDRBA standalone assumptions and are NOT claimed as composed-model theorems. Do not cite these rows as security proofs for CALIBER coalition resistance; see Lemma (Coalition censorship probability) in the paper for the theorem-level statement.
 
 - fee_sat: 1000
 - model_note: derived comparison under He-HTLC SDRBA assumptions (k*v_col threshold); this section is interpretive support, not an independent theorem claim

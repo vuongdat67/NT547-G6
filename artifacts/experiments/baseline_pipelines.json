@@ -67,7 +67,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=3efdb0cd3f25...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -151,7 +151,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=e938073755dd...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -235,7 +235,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=73b178a8d3a3...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -319,7 +319,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=87612013e372...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -403,7 +403,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=33429f275921...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -487,7 +487,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=9d6c69b7b52e...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -571,7 +571,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=7ae26f75f297...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -655,7 +655,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=f9f3866bbbbe...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -739,7 +739,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=2651cd0bd54e...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -823,7 +823,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=6aabcc6ab2d8...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -907,7 +907,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=b9c8338d5161...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -991,7 +991,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=a9744febf43f...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -1075,7 +1075,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=cb8b70234793...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -1159,7 +1159,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=ca7defb557ab...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -1243,7 +1243,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=2ee7e7c2a16a...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -1327,7 +1327,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=612052f8e24c...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -1411,7 +1411,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=dd22ae8d71f9...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -1495,7 +1495,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=88b15ef1c698...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -1579,7 +1579,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=186b91b2e98c...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -1663,7 +1663,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=9406c226c551...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -1747,7 +1747,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=73576c9bc3a1...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -1831,7 +1831,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=d9e0d3244ea2...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -1915,7 +1915,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=f045753cb3a1...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -1999,7 +1999,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=0e1aeb74cd31...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -2083,7 +2083,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=e53aa917e856...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -2167,7 +2167,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=49c9779cd4d8...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -2251,7 +2251,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=33f370cd50f8...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -2335,7 +2335,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=ca36eac9c0fd...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -2419,7 +2419,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=9c333e504a5d...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -2503,7 +2503,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=1019200ce09d...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -2587,7 +2587,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=1e00ca401a6f...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -2671,7 +2671,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=65f462da3952...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -2755,7 +2755,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=39e4599e0c44...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -2839,7 +2839,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=d60967c271e3...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -2923,7 +2923,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=0a62e3e2ace1...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -3007,7 +3007,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=b7063773538d...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -3091,7 +3091,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=34b068f78d48...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -3175,7 +3175,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=09f98ca114e6...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -3259,7 +3259,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=5d995bb5fc28...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -3343,7 +3343,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=3357e8e05168...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -3427,7 +3427,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=ca8396f6c2dd...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -3511,7 +3511,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=a3167dcc5157...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -3595,7 +3595,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=b420c85aee02...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -3679,7 +3679,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=ef3d3348725c...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -3763,7 +3763,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=aa9f9946751e...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -3847,7 +3847,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=ce9d5400982a...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -3931,7 +3931,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=15bac3fb94b8...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -4015,7 +4015,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=c4250999a7c5...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -4099,7 +4099,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=a1e8193fffcd...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -4183,7 +4183,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=8937070963ac...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -4267,7 +4267,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=3030f7f3f28f...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -4351,7 +4351,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=4e61df67bed7...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -4435,7 +4435,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=eb2fbd80832f...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -4519,7 +4519,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=d19114e93575...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -4603,7 +4603,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=8c388b054997...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -4687,7 +4687,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=c3ee78d9390d...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -4771,7 +4771,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=19f0d7fc1081...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -4855,7 +4855,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=af30d373e20a...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -4939,7 +4939,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=37339ce41db7...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -5023,7 +5023,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=18003b54e31a...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -5107,7 +5107,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=267ed7ea4a1b...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -5191,7 +5191,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=e85e7432fb91...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -5275,7 +5275,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=25125813a677...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -5359,7 +5359,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=2d8bb52c27ad...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -5443,7 +5443,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=afdc676a9816...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -5527,7 +5527,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=38dd83d7db50...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -5611,7 +5611,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=f48f8c2cbbfb...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -5695,7 +5695,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=b0382e352380...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -5779,7 +5779,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=97f91c063a4c...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -5863,7 +5863,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=7c34105f08f0...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -5947,7 +5947,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=744e0b963492...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -6031,7 +6031,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=88c27f767f44...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -6115,7 +6115,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=db5532b0fd99...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -6199,7 +6199,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=b1d4a4e6c7f1...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -6283,7 +6283,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=2a072c18e5cd...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -6367,7 +6367,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=6296f0c314aa...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -6451,7 +6451,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=59133bdc9a3e...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -6535,7 +6535,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=53358ed53263...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -6619,7 +6619,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=ed862d9f6a0a...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -6703,7 +6703,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=c10c2bd2ed97...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -6787,7 +6787,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=8b52c1be9d22...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -6871,7 +6871,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=41d76a46f4b9...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -6955,7 +6955,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=0c83d62ebfc5...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -7039,7 +7039,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=79d78d1ee641...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -7123,7 +7123,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=dee740d5a0a9...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -7207,7 +7207,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=64394cebfb55...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -7291,7 +7291,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=bd33d9807785...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -7375,7 +7375,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=7df556b79d85...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -7459,7 +7459,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=0058952dc5cb...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -7543,7 +7543,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=8cb6c87ff7f9...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -7627,7 +7627,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=eb1638f21dd0...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -7711,7 +7711,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=3e9038b63d44...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -7795,7 +7795,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=865610029588...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -7879,7 +7879,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=154b19fa3f5e...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -7963,7 +7963,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=a7c9e9bc0a6d...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -8047,7 +8047,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=33345a73dae6...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -8131,7 +8131,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=51037b5d7b13...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -8215,7 +8215,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=1b24cdfb4875...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -8299,7 +8299,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=05b83de65a6a...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -8383,7 +8383,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=b92cdaf1235a...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -8467,7 +8467,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=f4eca38ba4fa...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -8551,7 +8551,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=7247044a078f...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -8635,7 +8635,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=cb2365782da2...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -8719,7 +8719,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=b1339a778dbf...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -8803,7 +8803,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=4bc97aa4b978...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -8887,7 +8887,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=532b25545710...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -8971,7 +8971,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=c0f15eb52552...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -9055,7 +9055,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=fb7f2e31cc54...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -9139,7 +9139,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=b188351e4624...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -9223,7 +9223,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=140fe952eb30...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -9307,7 +9307,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=589f8390d772...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -9391,7 +9391,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=75c3fed3dd70...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -9475,7 +9475,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=509538ef2e2e...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -9559,7 +9559,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=ec113e17b9dd...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -9643,7 +9643,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=a693f369ddad...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -9727,7 +9727,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=31ef4491732f...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -9811,7 +9811,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=9945eeed4267...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -9895,7 +9895,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=1901af85bf82...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -9979,7 +9979,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=0a321447115a...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -10063,7 +10063,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=0bada291853f...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -10147,7 +10147,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=355d3a09a621...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -10231,7 +10231,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=4ace52862e7f...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -10315,7 +10315,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=cdeded91f445...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -10399,7 +10399,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=80454d99e7cb...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -10483,7 +10483,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=bced4668a7cf...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -10567,7 +10567,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=d0329655a0bc...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -10651,7 +10651,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=78563e0affe8...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -10735,7 +10735,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=1c82c14cbf64...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -10819,7 +10819,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=9b78fcbdb861...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -10903,7 +10903,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=db85c6d0b857...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -10987,7 +10987,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=bdc456b0b2e7...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -11071,7 +11071,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=a1d5780e380f...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -11155,7 +11155,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=0b1323bf7c60...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -11239,7 +11239,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=9bdc911c0df6...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -11323,7 +11323,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=fffa76d2cb97...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -11407,7 +11407,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=62fad5ad7b77...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -11491,7 +11491,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=b6d139207959...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -11575,7 +11575,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=abd538bf0e50...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -11659,7 +11659,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=907ca12a1548...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -11743,7 +11743,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=6e0b46ee41bc...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -11827,7 +11827,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=689f1c08de8c...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -11911,7 +11911,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=4d508c1e7221...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -11995,7 +11995,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=bc5708dc20e1...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -12079,7 +12079,7 @@
         "path": "dep-B",
         "vbytes": 172,
         "witness": "\u003csig_B\u003e \u003cpre_b=64bdd6718520...\u003e",
-        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He"
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
       },
       {
         "name": "tx_col_B",
@@ -12092,6 +12092,3030 @@
     "totalHonestVBytes": 358,
     "totalAttackVBytes": 324,
     "attackWidthSat": -166666,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.50-k3-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 500000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.50-k3-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=2844a23dcb25...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=2844a23dcb25...\u003e \u003cpre_b=47ead8bebb4c...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=47ead8bebb4c...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": 0,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.50-k3-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 500000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.50-k3-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=abc03729ac8e...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=abc03729ac8e...\u003e \u003cpre_b=a59179b01b52...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=a59179b01b52...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": 0,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.50-k3-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 500000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.50-k3-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=c2468b10c777...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=c2468b10c777...\u003e \u003cpre_b=9abe1fecaefc...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=9abe1fecaefc...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": 0,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.50-k3-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 500000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.50-k3-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=eea7b34a75bf...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=eea7b34a75bf...\u003e \u003cpre_b=63278dcab066...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=63278dcab066...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": 0,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.50-k5-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 500000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.50-k5-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=4d5734b6e881...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=4d5734b6e881...\u003e \u003cpre_b=f7a5bd47378e...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=f7a5bd47378e...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -250000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.50-k5-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 500000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.50-k5-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=b6d1070028c6...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=b6d1070028c6...\u003e \u003cpre_b=a75215366f40...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=a75215366f40...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -250000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.50-k5-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 500000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.50-k5-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=8d9bebbb8e62...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=8d9bebbb8e62...\u003e \u003cpre_b=ae08fec6139a...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=ae08fec6139a...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -250000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.50-k5-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 500000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.50-k5-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=7fc42259abc5...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=7fc42259abc5...\u003e \u003cpre_b=d82922c5dfcc...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=d82922c5dfcc...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -250000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.50-k7-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 500000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.50-k7-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=5d47974b93e3...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=5d47974b93e3...\u003e \u003cpre_b=162edb6dfade...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=162edb6dfade...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -333333,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.50-k7-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 500000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.50-k7-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=9e07d4c2abc0...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=9e07d4c2abc0...\u003e \u003cpre_b=29d7a24a7b0e...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=29d7a24a7b0e...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -333333,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.50-k7-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 500000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.50-k7-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=59148d497998...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=59148d497998...\u003e \u003cpre_b=3e8b68644b28...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=3e8b68644b28...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -333333,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.50-k7-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 500000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.50-k7-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=c136a31ece76...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=c136a31ece76...\u003e \u003cpre_b=04b4625e5759...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=04b4625e5759...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -333333,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.75-k3-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 250000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.75-k3-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=4250e73f5bf0...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=4250e73f5bf0...\u003e \u003cpre_b=0b8d467a348f...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=0b8d467a348f...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -250000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.75-k3-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 250000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.75-k3-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=300b92411cbd...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=300b92411cbd...\u003e \u003cpre_b=b0cc359c6c57...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=b0cc359c6c57...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -250000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.75-k3-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 250000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.75-k3-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=d6493c3a562e...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=d6493c3a562e...\u003e \u003cpre_b=93fca03a3857...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=93fca03a3857...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -250000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.75-k3-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 250000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.75-k3-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=20e00035e02d...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=20e00035e02d...\u003e \u003cpre_b=46aeb101b516...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=46aeb101b516...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -250000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.75-k5-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 250000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.75-k5-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=0061b559f8bf...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=0061b559f8bf...\u003e \u003cpre_b=be5bea70b6bb...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=be5bea70b6bb...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -500000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.75-k5-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 250000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.75-k5-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=e03f0dd7dcf1...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=e03f0dd7dcf1...\u003e \u003cpre_b=9bce547188eb...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=9bce547188eb...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -500000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.75-k5-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 250000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.75-k5-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=27c851609bc6...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=27c851609bc6...\u003e \u003cpre_b=5ec0a0f52a7b...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=5ec0a0f52a7b...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -500000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.75-k5-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 250000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.75-k5-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=d40ae606961e...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=d40ae606961e...\u003e \u003cpre_b=a3b6cfcfed00...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=a3b6cfcfed00...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -500000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.75-k7-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 250000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.75-k7-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=f49d7aed528b...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=f49d7aed528b...\u003e \u003cpre_b=74b3b41f2598...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=74b3b41f2598...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -583333,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.75-k7-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 250000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.75-k7-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=c7973009ccc7...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=c7973009ccc7...\u003e \u003cpre_b=e18d930b2dec...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=e18d930b2dec...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -583333,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.75-k7-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 250000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.75-k7-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=72a319b43fd4...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=72a319b43fd4...\u003e \u003cpre_b=12a07e707930...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=12a07e707930...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -583333,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col0.75-k7-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 250000,
+    "feasible": true,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col0.75-k7-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=5c9486bd89bc...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=5c9486bd89bc...\u003e \u003cpre_b=54da41aa295b...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=54da41aa295b...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -583333,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col1.00-k3-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 0,
+    "feasible": false,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col1.00-k3-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=0be91916384d...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=0be91916384d...\u003e \u003cpre_b=4a6bba536bfa...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=4a6bba536bfa...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -500000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col1.00-k3-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 0,
+    "feasible": false,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col1.00-k3-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=df8ad59b9633...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=df8ad59b9633...\u003e \u003cpre_b=1775d8a5abda...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=1775d8a5abda...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -500000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col1.00-k3-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 0,
+    "feasible": false,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col1.00-k3-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=10b8e462cee3...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=10b8e462cee3...\u003e \u003cpre_b=3eb2f6ff06d6...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=3eb2f6ff06d6...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -500000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col1.00-k3-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 0,
+    "feasible": false,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col1.00-k3-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=f65d0c0ba036...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=f65d0c0ba036...\u003e \u003cpre_b=857b9cc608ec...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=857b9cc608ec...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -500000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col1.00-k5-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 0,
+    "feasible": false,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col1.00-k5-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=6bc54b47c2f5...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=6bc54b47c2f5...\u003e \u003cpre_b=54660ba28703...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=54660ba28703...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -750000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col1.00-k5-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 0,
+    "feasible": false,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col1.00-k5-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=10b8d014c184...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=10b8d014c184...\u003e \u003cpre_b=fd8935fa06d8...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=fd8935fa06d8...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -750000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col1.00-k5-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 0,
+    "feasible": false,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col1.00-k5-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=65bc282214d2...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=65bc282214d2...\u003e \u003cpre_b=6d6588c5c512...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=6d6588c5c512...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -750000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col1.00-k5-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 0,
+    "feasible": false,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col1.00-k5-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=eed8e3ab9277...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=eed8e3ab9277...\u003e \u003cpre_b=90612c4acc4d...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=90612c4acc4d...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -750000,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col1.00-k7-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 0,
+    "feasible": false,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col1.00-k7-n1",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=fe616d2b939a...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=fe616d2b939a...\u003e \u003cpre_b=3e3711eda09b...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=3e3711eda09b...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -833333,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col1.00-k7-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 0,
+    "feasible": false,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col1.00-k7-n3",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=90509b9174a1...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=90509b9174a1...\u003e \u003cpre_b=786fd7cf705d...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=786fd7cf705d...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -833333,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col1.00-k7-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 0,
+    "feasible": false,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col1.00-k7-n5",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=e654013a92d0...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=e654013a92d0...\u003e \u003cpre_b=94ace0c83d58...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=94ace0c83d58...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -833333,
+    "feasible": false,
+    "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
+  },
+  {
+    "baseline": "MAD-HTLC standalone",
+    "configId": "dep0.500-col1.00-k7-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_claim_A",
+        "path": "honest-claim",
+        "vbytes": 188,
+        "witness": "\u003csig_A\u003e \u003cpre_a\u003e",
+        "description": "Alice reveals preimage and redeems deposit in honest path."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_mad_lock",
+        "path": "lock",
+        "vbytes": 176,
+        "witness": "\u003csig_A\u003e \u003csig_B\u003e",
+        "description": "Create MAD standalone lock UTXO for deposit and collateral."
+      },
+      {
+        "name": "tx_mad_bribe_censor",
+        "path": "attack-censor",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob executes timeout-side recovery while miners censor Alice claim."
+      }
+    ],
+    "totalHonestVBytes": 364,
+    "totalAttackVBytes": 328,
+    "attackWidthSat": 0,
+    "feasible": false,
+    "notes": "Transaction-level standalone MAD path; positive width indicates economically feasible attack interval."
+  },
+  {
+    "baseline": "He-HTLC standalone",
+    "configId": "dep0.500-col1.00-k7-n7",
+    "seed": 0,
+    "honestPath": [
+      {
+        "name": "tx_dep_A",
+        "path": "dep-A",
+        "vbytes": 190,
+        "witness": "\u003csig_A\u003e \u003cpre_a=110960f1639c...\u003e",
+        "description": "Honest execution: Alice reveals pre_a before timeout T"
+      },
+      {
+        "name": "tx_col_M",
+        "path": "col-M",
+        "vbytes": 168,
+        "witness": "\u003cpre_a=110960f1639c...\u003e \u003cpre_b=7b06ff07d014...\u003e",
+        "description": "He enforcement path for miner claim once both secrets are exposed."
+      }
+    ],
+    "attackPath": [
+      {
+        "name": "tx_dep_B",
+        "path": "dep-B",
+        "vbytes": 172,
+        "witness": "\u003csig_B\u003e \u003cpre_b=7b06ff07d014...\u003e",
+        "description": "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER"
+      },
+      {
+        "name": "tx_col_B",
+        "path": "col-B",
+        "vbytes": 152,
+        "witness": "\u003csig_B\u003e",
+        "description": "Bob refund after ell=6 blocks CSV"
+      }
+    ],
+    "totalHonestVBytes": 358,
+    "totalAttackVBytes": 324,
+    "attackWidthSat": -833333,
     "feasible": false,
     "notes": "Transaction-level standalone He path; non-positive width indicates no profitable miner-assisted deviation under theorem bounds."
   }
