@@ -1,8 +1,8 @@
-# CRAB-He: Artifact and Proof-of-Concept
+# CALIBER: Artifact and Proof-of-Concept
 
-This repository contains the CRAB-He proof-of-concept used by the paper:
+This repository contains the CALIBER proof-of-concept used by the paper:
 
-> CRAB-He: Securing Lightning Payment Channels Against Actively Rational Miners in Composed HTLC Settings
+> CALIBER: Securing Lightning Payment Channels Against Actively Rational Miners in Composed HTLC Settings
 
 The code supports the paper's artifact-backed claims: CLBA payoff-width analysis,
 collateral-only impossibility checks, deterministic attack replay, Taproot linked
@@ -16,7 +16,7 @@ incident, or model full routed-Lightning HTLCs.
 ## Structure
 
 ```
-crab-he/
+caliber/
 ├── cmd/
 │   ├── main.go
 │   ├── coalition_eval/
@@ -72,7 +72,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\ci_local.ps1
 go run ./cmd/main.go
 ```
 
-This prints the representative CRAB-He transaction model and threshold values.
+This prints the representative CALIBER transaction model and threshold values.
 
 ## Regtest TxID Smoke Test
 
@@ -168,7 +168,7 @@ go run ./cmd/coalition_eval/main.go
 ```
 
 This prints coalition-size feasibility and required collateral tables derived
-from the current CRAB-He parameters. These outputs are diagnostic support only;
+from the current CALIBER parameters. These outputs are diagnostic support only;
 the paper does not claim a theorem-level multi-miner coalition game.
 
 ## Experiment Guide Runner (Checklist Coverage)
@@ -200,9 +200,9 @@ The runner includes explicit baseline adapters in code for:
 - MAD-HTLC standalone reference
 - He-HTLC standalone condition margin
 - CRAB collateral-only baseline
-- CRAB-He linked-revocation threshold cases (c* - eps, c*, c* + eps)
+- CALIBER linked-revocation threshold cases (c* - eps, c*, c* + eps)
 - SDRBA-style payoff decisions for Bob/miner side-deal acceptance
-- deterministic CLBA attack-timeline replay for naive CRAB+He vs CRAB-He
+- deterministic CLBA attack-timeline replay for naive CRAB+He vs CALIBER
 
 To verify artifact consistency after generation:
 
@@ -210,7 +210,7 @@ To verify artifact consistency after generation:
 go run ./cmd/verify_artifacts
 ```
 
-The checker validates the key paper invariants: `c* = v+v_dep`, baseline CLBA has a positive interval, CRAB-He has width zero at `c*`, and the required CSV/JSON artifacts are present.
+The checker validates the key paper invariants: `c* = v+v_dep`, baseline CLBA has a positive interval, CALIBER has width zero at `c*`, and the required CSV/JSON artifacts are present.
 
 For a local end-to-end verification pass:
 
@@ -225,7 +225,7 @@ See `ARTIFACT.md` for the claim-to-evidence map used by the paper/proposal.
 Proves:
 
 - SDRBA-style payoff decision: Bob offers `BR`, miner accepts/rejects by utility.
-- Deterministic CLBA replay: baseline has a positive interval; CRAB-He closes it at `c*`.
+- Deterministic CLBA replay: baseline has a positive interval; CALIBER closes it at `c*`.
 - Linked Taproot ACS script feasibility on regtest and signet.
 - Artifact consistency via `go run ./cmd/verify_artifacts`.
 
