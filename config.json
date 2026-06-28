@@ -1,0 +1,27 @@
+{
+  "bitcoin_cli_paths": [
+    "E:\\Bitcoin\\daemon\\bitcoin-cli.exe",
+    "bitcoin-cli"
+  ],
+  "bitcoind_paths": [
+    "E:\\Bitcoin\\daemon\\bitcoind.exe",
+    "bitcoind"
+  ],
+  "networks": {
+    "regtest": {
+      "auto_mine": true,
+      "fee_sat": 1000,
+      "fund_sat": 10000,
+      "port": 18443
+    },
+    "signet": {
+      "auto_mine": false,
+      "fee_sat": 2000,
+      "fund_sat": 10000,
+      "port": 38332,
+      "max_wait_seconds": 600
+    }
+  },
+  "wallet_name": "CALIBER",
+  "num_runs": 10
+}
