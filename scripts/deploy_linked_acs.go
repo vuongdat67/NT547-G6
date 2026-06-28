@@ -31,10 +31,12 @@ type rpcCLI struct {
 	binPath string
 	network string
 	wallet  string
+	datadir string
+	conf    string
 }
 
 func (c *rpcCLI) run(walletScoped bool, args ...string) (string, error) {
-	full := make([]string, 0, len(args)+2)
+	full := make([]string, 0, len(args)+6)
 	switch c.network {
 	case "regtest":
 		full = append(full, "-regtest")
@@ -42,6 +44,12 @@ func (c *rpcCLI) run(walletScoped bool, args ...string) (string, error) {
 		full = append(full, "-signet")
 	default:
 		return "", fmt.Errorf("unsupported network %q", c.network)
+	}
+	if c.datadir != "" {
+		full = append(full, "-datadir="+c.datadir)
+	}
+	if c.conf != "" {
+		full = append(full, "-conf="+c.conf)
 	}
 	if walletScoped {
 		if strings.TrimSpace(c.wallet) == "" {
@@ -131,7 +139,7 @@ func main() {
 	var (
 		bitcoinCLI   = flag.String("bitcoin-cli", "bitcoin-cli", "Path to bitcoin-cli executable")
 		network      = flag.String("network", "regtest", "Network to use: regtest or signet")
-		wallet       = flag.String("wallet", "hehtlc_research", "Wallet name")
+		wallet       = flag.String("wallet", "CALIBER", "Wallet name")
 		tryLoad      = flag.Bool("try-load-wallet", true, "Try loading wallet before wallet-scoped RPC calls")
 		createWallet = flag.Bool("create-wallet-if-missing", false, "Create wallet if missing when try-load-wallet is enabled")
 		fundSat      = flag.Int64("fund-sat", 3000000, "Funding amount in satoshis sent to linked ACS output (default c*)")
@@ -140,6 +148,8 @@ func main() {
 		autoMine     = flag.Bool("auto-mine-regtest", true, "Mine 1 block automatically on regtest after fund and spend")
 		pollSeconds  = flag.Int("poll-seconds", 5, "Polling interval while waiting for fund tx visibility")
 		maxWaitSec   = flag.Int("max-wait-seconds", 120, "Max wait for tx visibility")
+		datadirFlag  = flag.String("datadir", "", "Bitcoin data directory (passed as -datadir= to bitcoin-cli)")
+		confFlag     = flag.String("conf", "", "Bitcoin config file (passed as -conf= to bitcoin-cli)")
 		artifactPath = flag.String("artifact", "", "Optional artifact path (default: artifacts/linked_acs_<network>.json)")
 	)
 	flag.Parse()
@@ -163,7 +173,7 @@ func main() {
 		maxBurnBTC = &s
 	}
 
-	cli := &rpcCLI{binPath: *bitcoinCLI, network: *network, wallet: *wallet}
+	cli := &rpcCLI{binPath: *bitcoinCLI, network: *network, wallet: *wallet, datadir: *datadirFlag, conf: *confFlag}
 
 	fmt.Println("[1/9] Checking node connectivity...")
 	ciRaw, err := cli.run(false, "getblockchaininfo")

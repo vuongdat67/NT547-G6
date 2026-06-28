@@ -13,7 +13,8 @@ class NodeManager:
         
         self.bitcoin_cli = self._find_executable(self.config["bitcoin_cli_paths"])
         self.bitcoind = self._find_executable(self.config["bitcoind_paths"])
-        self.wallet = self.config["wallet_name"]
+        # Wallet name is now per-network in config
+        self.wallet = self.net_cfg.get("wallet_name", self.config.get("wallet_name", "CALIBER"))
 
     def _find_executable(self, paths):
         # 1. Check given hardcoded paths

@@ -1,6 +1,6 @@
 param(
     [string]$BitcoinCli = "C:\Program Files\Bitcoin\daemon\bitcoin-cli.exe",
-    [string]$WalletName = "test",
+    [string]$WalletName = "CALIBER",
     [int64]$FundSat = 3000000,
     [int64[]]$FeeSatProfiles = @(250, 500, 1000, 2500, 5000),
     [int[]]$Seeds = @(1, 2, 3),
@@ -65,12 +65,20 @@ foreach ($fee in $FeeSatProfiles) {
 
 $csvPath = Join-Path $OutputDir "fee_profile_summary.csv"
 $jsonPath = Join-Path $OutputDir "fee_profile_summary.json"
-$records | Sort-Object feeSat, seed | Export-Csv -NoTypeInformation -Path $csvPath
-$records | Sort-Object feeSat, seed | ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 $jsonPath
+$txidsCsvPath = Join-Path $OutputDir "fee_profile_txids.csv"
+$txidsJsonPath = Join-Path $OutputDir "fee_profile_txids.json"
+
+$ordered = $records | Sort-Object feeSat, seed
+$ordered | Select-Object feeSat, seed, success, artifact | Export-Csv -NoTypeInformation -Path $csvPath
+$ordered | Select-Object feeSat, seed, success, artifact | ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 $jsonPath
+$ordered | Select-Object feeSat, seed, fundTxid, spendTxid, artifact | Export-Csv -NoTypeInformation -Path $txidsCsvPath
+$ordered | Select-Object feeSat, seed, fundTxid, spendTxid, artifact | ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 $txidsJsonPath
 
 Write-Host ""
 Write-Host ("Summary CSV : {0}" -f $csvPath)
 Write-Host ("Summary JSON: {0}" -f $jsonPath)
+Write-Host ("TxIDs CSV   : {0}" -f $txidsCsvPath)
+Write-Host ("TxIDs JSON  : {0}" -f $txidsJsonPath)
 
 $records | Group-Object feeSat | ForEach-Object {
     $total = $_.Count

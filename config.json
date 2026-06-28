@@ -7,21 +7,23 @@
     "E:\\Bitcoin\\daemon\\bitcoind.exe",
     "bitcoind"
   ],
+  "num_runs": 100,
   "networks": {
     "regtest": {
+      "wallet_name": "CALIBER",
       "auto_mine": true,
-      "fee_sat": 1000,
-      "fund_sat": 10000,
+      "fee_sat": 500000,
+      "fund_sat": 3000000,
       "port": 18443
     },
     "signet": {
+      "wallet_name": "CALIBER1",
+      "vault_wallet": "CALIBER2",
       "auto_mine": false,
-      "fee_sat": 2000,
-      "fund_sat": 10000,
+      "fee_sat": 500000,
+      "fund_sat": 3000000,
       "port": 38332,
       "max_wait_seconds": 600
     }
-  },
-  "wallet_name": "CALIBER",
-  "num_runs": 10
+  }
 }
