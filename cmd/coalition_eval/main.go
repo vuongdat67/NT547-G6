@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/crab-he/internal/channel"
+	"github.com/caliber/internal/channel"
 )
 
 func main() {
-	fmt.Println("=== CRAB-He Coalition Derived Comparison ===")
+	fmt.Println("=== CALIBER Coalition Derived Comparison ===")
 	fmt.Println()
 
 	v := big.NewInt(2_500_000)

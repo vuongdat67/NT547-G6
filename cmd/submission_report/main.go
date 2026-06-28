@@ -28,9 +28,9 @@ func main() {
 	}
 
 	var b strings.Builder
-	b.WriteString("# CRAB-He Submission Artifact Report\n\n")
+	b.WriteString("# CALIBER Submission Artifact Report\n\n")
 	b.WriteString(fmt.Sprintf("Generated: %s\n\n", time.Now().UTC().Format(time.RFC3339)))
-	b.WriteString("This report summarizes repository artifacts used by the CRAB-He paper. It is an evidence index, not a new theorem or a production-deployment claim.\n\n")
+	b.WriteString("This report summarizes repository artifacts used by the CALIBER paper. It is an evidence index, not a new theorem or a production-deployment claim.\n\n")
 
 	writeAttackTimeline(&b)
 	writeParallelSwaps(&b)

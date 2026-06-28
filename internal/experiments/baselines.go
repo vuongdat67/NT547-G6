@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/crab-he/internal/htlc"
+	"github.com/caliber/internal/htlc"
 )
 
 // TxStage is a publication-friendly transaction stage summary.

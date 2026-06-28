@@ -1,9 +1,9 @@
 param(
     [string]$BitcoinCli = "C:\Program Files\Bitcoin\daemon\bitcoin-cli.exe",
-    [string]$WalletName = "hehtlc_research",
+    [string]$WalletName = "CALIBER1",
     [int64]$FundSat = 3000000,
     [int64[]]$FeeSatProfiles = @(250, 500, 1000, 2500, 5000),
-    [int[]]$Seeds = @(1, 2, 3),
+    [int[]]$Seeds = @(1),
     [string]$OutputDir = "artifacts/onchain/signet/fee_profiles"
 )
 
@@ -29,10 +29,12 @@ foreach ($fee in $FeeSatProfiles) {
             -network signet `
             -bitcoin-cli $BitcoinCli `
             -wallet $WalletName `
+            -datadir "E:\Bitcoin\data" `
+            -conf "E:\Bitcoin\bitcoin-signet.conf" `
             -artifact $artifact `
             -fund-sat $FundSat `
             -fee-sat $fee `
-            -try-load-wallet 2>&1
+            -try-load-wallet -max-wait-seconds 600 2>&1
 
         $ok = $LASTEXITCODE -eq 0
         if (-not $ok) {

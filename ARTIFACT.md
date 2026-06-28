@@ -1,4 +1,4 @@
-# CRAB-He Artifact Map
+# CALIBER Artifact Map
 
 This file maps the paper/proposal claims to the concrete repository evidence.
 
@@ -35,7 +35,7 @@ Key invariant:
 
 - `Collateral-only c'=2c` keeps `Width = 2,500,000`; increasing `c` changes both Bob's upper bound and miner's lower bound equally.
 
-## Claim 3: CRAB-He Closes The Bribery Interval
+## Claim 3: CALIBER Closes The Bribery Interval
 
 Evidence:
 
@@ -68,7 +68,7 @@ Evidence:
 - `scripts/deploy_linked_acs.go`
 - `artifacts/linked_acs_regtest.json`
 - `artifacts/linked_acs_signet.json`
-- `artifacts/crab_he_results.json`
+- `artifacts/caliber_results.json`
 
 Confirmed analytical profile:
 

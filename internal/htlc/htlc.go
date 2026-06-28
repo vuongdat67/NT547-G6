@@ -92,7 +92,7 @@ func DepB(dep *HeDep, preB []byte) *HeTx {
 			},
 		},
 		Witness: fmt.Sprintf("<sig_B> <pre_b=%s>", hx(preB)),
-		Note:    "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CRAB-He",
+		Note:    "Bob refund path: pre_b revealed on-chain; this is the linked-ACS trigger in CALIBER",
 	}
 }
 
@@ -180,7 +180,7 @@ func (h *HTLC) Scripts() string {
 
 func (h *HTLC) DepBTriggerNote() string {
 	return fmt.Sprintf(`
-CRAB-He Linked Revocation Trigger (dep-B broadcast):
+CALIBER Linked Revocation Trigger (dep-B broadcast):
   1. Bob broadcasts tx_dep_B with pre_b in witness
   2. pre_b = %s is now public on-chain
   3. Miners with r^j_a (from PBB or Alice revoke tx) can spend linked ACS

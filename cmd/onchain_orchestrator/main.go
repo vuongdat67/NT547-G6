@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/crab-he/internal/experiments"
+	"github.com/caliber/internal/experiments"
 )
 
 const defaultVSat int64 = 2_000_000
@@ -75,6 +75,7 @@ func main() {
 		continueOnError  = flag.Bool("continue-on-error", true, "Continue when one run fails")
 		createIfMissing  = flag.Bool("create-wallet-if-missing", false, "Create wallet if missing")
 		deployScriptPath = flag.String("deploy-script", "./scripts/deploy_linked_acs.go", "Path to linked ACS deploy script")
+		bitcoinCliPath   = flag.String("bitcoin-cli", "bitcoin-cli", "Path to bitcoin-cli executable")
 		artifactRoot     = flag.String("artifact-root", filepath.Join("artifacts", "onchain"), "Output folder for run artifacts")
 		retryAttempts    = flag.Int("retry-attempts", 0, "Retry failed broadcast this many times when mempool-chain policy rejects the transaction")
 		retryDelayMs     = flag.Int("retry-delay-ms", 0, "Delay between retry attempts in milliseconds")
@@ -119,6 +120,7 @@ func main() {
 
 				args := []string{
 					"run", *deployScriptPath,
+					"-bitcoin-cli", *bitcoinCliPath,
 					"-network", network,
 					"-wallet", *wallet,
 					"-fund-sat", fmt.Sprintf("%d", *fundSat),

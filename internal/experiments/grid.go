@@ -20,7 +20,7 @@ type Config struct {
 }
 
 func BuildGridConfigs(vSat int64) []Config {
-	vDepRatios := []float64{0.01, 0.025, 0.05, 0.1}
+	vDepRatios := []float64{0.01, 0.025, 0.05, 0.1, 0.5}
 	vColOverVDep := []float64{0.5, 0.75, 1.0}
 	kappas := []int{3, 5, 7}
 	hops := []int{1, 3, 5, 7}

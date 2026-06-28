@@ -1,0 +1,713 @@
+{
+  "generatedAtUtc": "2026-06-28T07:37:51Z",
+  "source": "caliber experiment runner (m2: parameter sensitivity range)",
+  "rows": [
+    {
+      "vSat": 1500000,
+      "vDepSat": 750000,
+      "vColSat": 187500,
+      "widthCRABSat": 2062500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1510000,
+      "vDepSat": 755000,
+      "vColSat": 188750,
+      "widthCRABSat": 2076250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1520000,
+      "vDepSat": 760000,
+      "vColSat": 190000,
+      "widthCRABSat": 2090000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1530000,
+      "vDepSat": 765000,
+      "vColSat": 191250,
+      "widthCRABSat": 2103750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1540000,
+      "vDepSat": 770000,
+      "vColSat": 192500,
+      "widthCRABSat": 2117500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1550000,
+      "vDepSat": 775000,
+      "vColSat": 193750,
+      "widthCRABSat": 2131250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1560000,
+      "vDepSat": 780000,
+      "vColSat": 195000,
+      "widthCRABSat": 2145000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1570000,
+      "vDepSat": 785000,
+      "vColSat": 196250,
+      "widthCRABSat": 2158750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1580000,
+      "vDepSat": 790000,
+      "vColSat": 197500,
+      "widthCRABSat": 2172500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1590000,
+      "vDepSat": 795000,
+      "vColSat": 198750,
+      "widthCRABSat": 2186250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1600000,
+      "vDepSat": 800000,
+      "vColSat": 200000,
+      "widthCRABSat": 2200000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1610000,
+      "vDepSat": 805000,
+      "vColSat": 201250,
+      "widthCRABSat": 2213750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1620000,
+      "vDepSat": 810000,
+      "vColSat": 202500,
+      "widthCRABSat": 2227500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1630000,
+      "vDepSat": 815000,
+      "vColSat": 203750,
+      "widthCRABSat": 2241250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1640000,
+      "vDepSat": 820000,
+      "vColSat": 205000,
+      "widthCRABSat": 2255000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1650000,
+      "vDepSat": 825000,
+      "vColSat": 206250,
+      "widthCRABSat": 2268750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1660000,
+      "vDepSat": 830000,
+      "vColSat": 207500,
+      "widthCRABSat": 2282500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1670000,
+      "vDepSat": 835000,
+      "vColSat": 208750,
+      "widthCRABSat": 2296250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1680000,
+      "vDepSat": 840000,
+      "vColSat": 210000,
+      "widthCRABSat": 2310000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1690000,
+      "vDepSat": 845000,
+      "vColSat": 211250,
+      "widthCRABSat": 2323750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1700000,
+      "vDepSat": 850000,
+      "vColSat": 212500,
+      "widthCRABSat": 2337500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1710000,
+      "vDepSat": 855000,
+      "vColSat": 213750,
+      "widthCRABSat": 2351250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1720000,
+      "vDepSat": 860000,
+      "vColSat": 215000,
+      "widthCRABSat": 2365000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1730000,
+      "vDepSat": 865000,
+      "vColSat": 216250,
+      "widthCRABSat": 2378750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1740000,
+      "vDepSat": 870000,
+      "vColSat": 217500,
+      "widthCRABSat": 2392500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1750000,
+      "vDepSat": 875000,
+      "vColSat": 218750,
+      "widthCRABSat": 2406250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1760000,
+      "vDepSat": 880000,
+      "vColSat": 220000,
+      "widthCRABSat": 2420000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1770000,
+      "vDepSat": 885000,
+      "vColSat": 221250,
+      "widthCRABSat": 2433750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1780000,
+      "vDepSat": 890000,
+      "vColSat": 222500,
+      "widthCRABSat": 2447500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1790000,
+      "vDepSat": 895000,
+      "vColSat": 223750,
+      "widthCRABSat": 2461250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1800000,
+      "vDepSat": 900000,
+      "vColSat": 225000,
+      "widthCRABSat": 2475000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1810000,
+      "vDepSat": 905000,
+      "vColSat": 226250,
+      "widthCRABSat": 2488750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1820000,
+      "vDepSat": 910000,
+      "vColSat": 227500,
+      "widthCRABSat": 2502500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1830000,
+      "vDepSat": 915000,
+      "vColSat": 228750,
+      "widthCRABSat": 2516250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1840000,
+      "vDepSat": 920000,
+      "vColSat": 230000,
+      "widthCRABSat": 2530000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1850000,
+      "vDepSat": 925000,
+      "vColSat": 231250,
+      "widthCRABSat": 2543750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1860000,
+      "vDepSat": 930000,
+      "vColSat": 232500,
+      "widthCRABSat": 2557500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1870000,
+      "vDepSat": 935000,
+      "vColSat": 233750,
+      "widthCRABSat": 2571250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1880000,
+      "vDepSat": 940000,
+      "vColSat": 235000,
+      "widthCRABSat": 2585000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1890000,
+      "vDepSat": 945000,
+      "vColSat": 236250,
+      "widthCRABSat": 2598750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1900000,
+      "vDepSat": 950000,
+      "vColSat": 237500,
+      "widthCRABSat": 2612500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1910000,
+      "vDepSat": 955000,
+      "vColSat": 238750,
+      "widthCRABSat": 2626250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1920000,
+      "vDepSat": 960000,
+      "vColSat": 240000,
+      "widthCRABSat": 2640000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1930000,
+      "vDepSat": 965000,
+      "vColSat": 241250,
+      "widthCRABSat": 2653750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1940000,
+      "vDepSat": 970000,
+      "vColSat": 242500,
+      "widthCRABSat": 2667500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1950000,
+      "vDepSat": 975000,
+      "vColSat": 243750,
+      "widthCRABSat": 2681250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1960000,
+      "vDepSat": 980000,
+      "vColSat": 245000,
+      "widthCRABSat": 2695000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1970000,
+      "vDepSat": 985000,
+      "vColSat": 246250,
+      "widthCRABSat": 2708750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1980000,
+      "vDepSat": 990000,
+      "vColSat": 247500,
+      "widthCRABSat": 2722500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 1990000,
+      "vDepSat": 995000,
+      "vColSat": 248750,
+      "widthCRABSat": 2736250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2000000,
+      "vDepSat": 1000000,
+      "vColSat": 250000,
+      "widthCRABSat": 2750000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2010000,
+      "vDepSat": 1005000,
+      "vColSat": 251250,
+      "widthCRABSat": 2763750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2020000,
+      "vDepSat": 1010000,
+      "vColSat": 252500,
+      "widthCRABSat": 2777500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2030000,
+      "vDepSat": 1015000,
+      "vColSat": 253750,
+      "widthCRABSat": 2791250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2040000,
+      "vDepSat": 1020000,
+      "vColSat": 255000,
+      "widthCRABSat": 2805000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2050000,
+      "vDepSat": 1025000,
+      "vColSat": 256250,
+      "widthCRABSat": 2818750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2060000,
+      "vDepSat": 1030000,
+      "vColSat": 257500,
+      "widthCRABSat": 2832500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2070000,
+      "vDepSat": 1035000,
+      "vColSat": 258750,
+      "widthCRABSat": 2846250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2080000,
+      "vDepSat": 1040000,
+      "vColSat": 260000,
+      "widthCRABSat": 2860000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2090000,
+      "vDepSat": 1045000,
+      "vColSat": 261250,
+      "widthCRABSat": 2873750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2100000,
+      "vDepSat": 1050000,
+      "vColSat": 262500,
+      "widthCRABSat": 2887500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2110000,
+      "vDepSat": 1055000,
+      "vColSat": 263750,
+      "widthCRABSat": 2901250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2120000,
+      "vDepSat": 1060000,
+      "vColSat": 265000,
+      "widthCRABSat": 2915000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2130000,
+      "vDepSat": 1065000,
+      "vColSat": 266250,
+      "widthCRABSat": 2928750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2140000,
+      "vDepSat": 1070000,
+      "vColSat": 267500,
+      "widthCRABSat": 2942500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2150000,
+      "vDepSat": 1075000,
+      "vColSat": 268750,
+      "widthCRABSat": 2956250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2160000,
+      "vDepSat": 1080000,
+      "vColSat": 270000,
+      "widthCRABSat": 2970000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2170000,
+      "vDepSat": 1085000,
+      "vColSat": 271250,
+      "widthCRABSat": 2983750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2180000,
+      "vDepSat": 1090000,
+      "vColSat": 272500,
+      "widthCRABSat": 2997500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2190000,
+      "vDepSat": 1095000,
+      "vColSat": 273750,
+      "widthCRABSat": 3011250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2200000,
+      "vDepSat": 1100000,
+      "vColSat": 275000,
+      "widthCRABSat": 3025000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2210000,
+      "vDepSat": 1105000,
+      "vColSat": 276250,
+      "widthCRABSat": 3038750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2220000,
+      "vDepSat": 1110000,
+      "vColSat": 277500,
+      "widthCRABSat": 3052500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2230000,
+      "vDepSat": 1115000,
+      "vColSat": 278750,
+      "widthCRABSat": 3066250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2240000,
+      "vDepSat": 1120000,
+      "vColSat": 280000,
+      "widthCRABSat": 3080000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2250000,
+      "vDepSat": 1125000,
+      "vColSat": 281250,
+      "widthCRABSat": 3093750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2260000,
+      "vDepSat": 1130000,
+      "vColSat": 282500,
+      "widthCRABSat": 3107500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2270000,
+      "vDepSat": 1135000,
+      "vColSat": 283750,
+      "widthCRABSat": 3121250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2280000,
+      "vDepSat": 1140000,
+      "vColSat": 285000,
+      "widthCRABSat": 3135000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2290000,
+      "vDepSat": 1145000,
+      "vColSat": 286250,
+      "widthCRABSat": 3148750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2300000,
+      "vDepSat": 1150000,
+      "vColSat": 287500,
+      "widthCRABSat": 3162500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2310000,
+      "vDepSat": 1155000,
+      "vColSat": 288750,
+      "widthCRABSat": 3176250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2320000,
+      "vDepSat": 1160000,
+      "vColSat": 290000,
+      "widthCRABSat": 3190000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2330000,
+      "vDepSat": 1165000,
+      "vColSat": 291250,
+      "widthCRABSat": 3203750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2340000,
+      "vDepSat": 1170000,
+      "vColSat": 292500,
+      "widthCRABSat": 3217500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2350000,
+      "vDepSat": 1175000,
+      "vColSat": 293750,
+      "widthCRABSat": 3231250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2360000,
+      "vDepSat": 1180000,
+      "vColSat": 295000,
+      "widthCRABSat": 3245000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2370000,
+      "vDepSat": 1185000,
+      "vColSat": 296250,
+      "widthCRABSat": 3258750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2380000,
+      "vDepSat": 1190000,
+      "vColSat": 297500,
+      "widthCRABSat": 3272500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2390000,
+      "vDepSat": 1195000,
+      "vColSat": 298750,
+      "widthCRABSat": 3286250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2400000,
+      "vDepSat": 1200000,
+      "vColSat": 300000,
+      "widthCRABSat": 3300000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2410000,
+      "vDepSat": 1205000,
+      "vColSat": 301250,
+      "widthCRABSat": 3313750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2420000,
+      "vDepSat": 1210000,
+      "vColSat": 302500,
+      "widthCRABSat": 3327500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2430000,
+      "vDepSat": 1215000,
+      "vColSat": 303750,
+      "widthCRABSat": 3341250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2440000,
+      "vDepSat": 1220000,
+      "vColSat": 305000,
+      "widthCRABSat": 3355000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2450000,
+      "vDepSat": 1225000,
+      "vColSat": 306250,
+      "widthCRABSat": 3368750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2460000,
+      "vDepSat": 1230000,
+      "vColSat": 307500,
+      "widthCRABSat": 3382500,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2470000,
+      "vDepSat": 1235000,
+      "vColSat": 308750,
+      "widthCRABSat": 3396250,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2480000,
+      "vDepSat": 1240000,
+      "vColSat": 310000,
+      "widthCRABSat": 3410000,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2490000,
+      "vDepSat": 1245000,
+      "vColSat": 311250,
+      "widthCRABSat": 3423750,
+      "widthCALIBERSat": 0
+    },
+    {
+      "vSat": 2500000,
+      "vDepSat": 1250000,
+      "vColSat": 312500,
+      "widthCRABSat": 3437500,
+      "widthCALIBERSat": 0
+    }
+  ]
+}

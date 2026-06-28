@@ -8,7 +8,7 @@ type AttackTimelineReport struct {
 	GeneratedAtUTC string             `json:"generatedAtUtc"`
 	Profile        AttackProfile      `json:"profile"`
 	Baseline       AttackScenario     `json:"baselineCrabPlusHe"`
-	CRABHe         AttackScenario     `json:"crabHe"`
+	CALIBER         AttackScenario     `json:"caliber"`
 	Rows           []AttackSummaryRow `json:"rows"`
 	Notes          []string           `json:"notes"`
 }
@@ -18,7 +18,7 @@ type AttackProfile struct {
 	VDepSat         int64 `json:"vDepSat"`
 	VColSat         int64 `json:"vColSat"`
 	BaselineCSat    int64 `json:"baselineCSat"`
-	CRABHeCStarSat  int64 `json:"crabHeCStarSat"`
+	CALIBERCStarSat  int64 `json:"caliberCStarSat"`
 	Kappa           int   `json:"kappa"`
 	LinkedFeeSat    int64 `json:"linkedFeeSat"`
 	LinkedBurnSat   int64 `json:"linkedBurnSat"`
@@ -63,7 +63,7 @@ func BuildAttackTimelineReport() AttackTimelineReport {
 		VDepSat:         500_000,
 		VColSat:         500_000,
 		BaselineCSat:    2_500_000,
-		CRABHeCStarSat:  3_000_000,
+		CALIBERCStarSat:  3_000_000,
 		Kappa:           3,
 		LinkedFeeSat:    500_000,
 		LinkedBurnSat:   2_500_000,
@@ -72,22 +72,22 @@ func BuildAttackTimelineReport() AttackTimelineReport {
 	}
 
 	baseline := buildBaselineAttackScenario(profile)
-	crabHe := buildCRABHeAttackScenario(profile)
+	caliberScenario := buildCALIBERAttackScenario(profile)
 	rows := []AttackSummaryRow{
 		scenarioRow(baseline),
-		scenarioRow(crabHe),
+		scenarioRow(caliberScenario),
 	}
 
 	return AttackTimelineReport{
 		GeneratedAtUTC: time.Now().UTC().Format(time.RFC3339),
 		Profile:        profile,
 		Baseline:       baseline,
-		CRABHe:         crabHe,
+		CALIBER:         caliberScenario,
 		Rows:           rows,
 		Notes: []string{
 			"The replay is a deterministic incentive-model simulation, not a mainnet incident claim.",
 			"Baseline width follows W = v + v_dep - v_col.",
-			"CRAB-He width follows W' = v + v_dep - c_star and is zero at c_star = v + v_dep.",
+			"CALIBER width follows W' = v + v_dep - c_star and is zero at c_star = v + v_dep.",
 		},
 	}
 }
@@ -116,12 +116,12 @@ func buildBaselineAttackScenario(p AttackProfile) AttackScenario {
 	}
 }
 
-func buildCRABHeAttackScenario(p AttackProfile) AttackScenario {
+func buildCALIBERAttackScenario(p AttackProfile) AttackScenario {
 	ub := p.VSat + p.VDepSat
-	lb := p.CRABHeCStarSat
+	lb := p.CALIBERCStarSat
 	width := ub - lb
 	return AttackScenario{
-		Scheme:          "CRAB-He",
+		Scheme:          "CALIBER",
 		BobUBSat:        ub,
 		MinerLBSat:      lb,
 		WidthSat:        width,

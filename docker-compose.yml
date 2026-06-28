@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  bitcoin:
+    image: ruimarinho/bitcoin-core:25.0
+    command:
+      - -regtest=1
+      - -rpcuser=test
+      - -rpcpassword=test
+      - -fallbackfee=0.0002
+      - -txindex=1
+      - -server=1
+      - -rpcallowip=0.0.0.0/0
+    ports:
+      - "18443:18443"
+    volumes:
+      - bitcoin_data:/home/bitcoin/.bitcoin
+
+  caliber:
+    build: .
+    depends_on:
+      - bitcoin
+    environment:
+      - BITCOIN_RPC_HOST=bitcoin:18443
+      - BITCOIN_RPC_USER=test
+      - BITCOIN_RPC_PASS=test
+    command: make reproduce
+
+volumes:
+  bitcoin_data:

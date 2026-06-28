@@ -1,4 +1,4 @@
-// Package channel implements CRAB-He channel construction.
+// Package channel implements CALIBER channel construction.
 // Based on CRAB (CCS'24) by Aumayr et al. and He-HTLC (NDSS'23) by Wadhwa et al.
 // Extended with Cross-Layer Bribery Attack (CLBA) defense via linked revocation.
 package channel
@@ -9,7 +9,7 @@ import (
 	"math/big"
 )
 
-// Params holds CRAB-He channel parameters.
+// Params holds CALIBER channel parameters.
 type Params struct {
 	V         *big.Int
 	CStar     *big.Int
@@ -22,7 +22,7 @@ type Params struct {
 	Kappa     int
 }
 
-// NewParams creates CRAB-He parameters with collateral derived from the
+// NewParams creates CALIBER parameters with collateral derived from the
 // burn-based linked-ACS game: c* = v + v_dep.
 func NewParams(v, vDep, vCol, delta *big.Int, t, absT, ell int64, kappa int) (*Params, error) {
 	if kappa <= 2 {
@@ -68,7 +68,7 @@ func (p *Params) OverheadAboveCRABByzantine() *big.Int {
 
 func (p *Params) String() string {
 	return fmt.Sprintf(
-		"CRAB-He Params:\n"+
+		"CALIBER Params:\n"+
 			"  v       = %s sat\n"+
 			"  c*      = %s sat  (v+v_dep)\n"+
 			"  v_dep   = %s sat\n"+
@@ -214,7 +214,7 @@ func (a *CLBAAnalysis) Report() string {
 	)
 }
 
-// ReportLinked reports CLBA feasibility under CRAB-He linked ACS.
+// ReportLinked reports CLBA feasibility under CALIBER linked ACS.
 func (a *CLBAAnalysis) ReportLinked() string {
 	status := "PROFITABLE (attack succeeds)"
 	if !a.IsCLBAProfitableLinked() {

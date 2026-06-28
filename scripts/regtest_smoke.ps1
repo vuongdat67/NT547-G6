@@ -1,6 +1,6 @@
 param(
     [string]$BitcoinCli = "C:\Program Files\Bitcoin\daemon\bitcoin-cli.exe",
-    [string]$WalletName = "test",
+    [string]$WalletName = "CALIBER",
     [decimal]$AmountBtc = 0.01,
     [decimal]$FeeRateSatVb = 1
 )

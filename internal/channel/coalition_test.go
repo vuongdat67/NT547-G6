@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/crab-he/internal/channel"
+	"github.com/caliber/internal/channel"
 )
 
 func testParams(t *testing.T) *channel.Params {

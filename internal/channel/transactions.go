@@ -1,4 +1,4 @@
-// Package channel contains CRAB-He transaction generation.
+// Package channel contains CALIBER transaction generation.
 package channel
 
 import (
@@ -107,7 +107,7 @@ func MakeCommitA(p *Params, j int, vA, vB int64,
 		outputs[2] = Output{
 			ValueSat: sat(p.CStar),
 			Condition: fmt.Sprintf(
-				"[CRAB-He Taproot ACS] out[2] commits two leaves: leaf-CRAB(H(r^%d_a)) and leaf-linked(H(pre_b),H(r^%d_a),2-of-2 schnorr CHECKSIGADD)",
+				"[CALIBER Taproot ACS] out[2] commits two leaves: leaf-CRAB(H(r^%d_a)) and leaf-linked(H(pre_b),H(r^%d_a),2-of-2 schnorr CHECKSIGADD)",
 				j, j),
 			Script: fmt.Sprintf(
 				"P2TR(internal=pkA, leaves={OP_SHA256 %s OP_EQUAL ; OP_SHA256 %s OP_EQUALVERIFY OP_SHA256 %s OP_EQUALVERIFY <xonly(pkA)> OP_CHECKSIG <xonly(pkB)> OP_CHECKSIGADD OP_2 OP_EQUAL})",
@@ -377,7 +377,7 @@ func MakeRevokeACSLinked(j int, rjA *RevocationSecret, htlc *HTLCSecrets, cStar 
 			Script:    "OP_RETURN <burn-commitment>",
 		}},
 		Note: fmt.Sprintf(
-			"CRAB-He linked ACS j=%d\n"+
+			"CALIBER linked ACS j=%d\n"+
 				"  witness: tapscript leaf2 stack <sig_B> <sig_A> <pre_b> <r^%d_a>\n"+
 				"  trigger: Bob broadcasts dep-B on-chain\n"+
 				"  r^%d_a from: PBB or Alice revoke tx\n"+

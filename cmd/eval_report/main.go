@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/crab-he/internal/channel"
+	"github.com/caliber/internal/channel"
 )
 
 type txRow struct {
@@ -54,8 +54,8 @@ type coalitionSummary struct {
 type clbaSummary struct {
 	CRABRationalWidthSat  string `json:"crabRationalWidthSat"`
 	CRABByzantineWidthSat string `json:"crabByzantineWidthSat"`
-	CRABHeWidthSat        string `json:"crabHeWidthSat"`
-	CRABHeInfeasible      bool   `json:"crabHeInfeasible"`
+	CALIBERWidthSat        string `json:"caliberWidthSat"`
+	CALIBERInfeasible      bool   `json:"caliberInfeasible"`
 	CStarSat              string `json:"cStarSat"`
 }
 
@@ -73,7 +73,7 @@ func main() {
 	params, err := defaultParams()
 	must(err)
 
-	txRows, txEvidence, clba, err := computeCRABHeData(params)
+	txRows, txEvidence, clba, err := computeCALIBERData(params)
 	must(err)
 	coalition, err := computeCoalitionData(params, 1_000)
 	must(err)
@@ -88,7 +88,7 @@ func main() {
 
 	rep := report{
 		GeneratedAtUTC:    time.Now().UTC().Format(time.RFC3339),
-		Source:            "crab-he local implementation and deployment artifacts",
+		Source:            "caliber local implementation and deployment artifacts",
 		TxTable:           txRows,
 		TxSizeEvidence:    txEvidence,
 		LinkedDeployments: artifacts,
@@ -97,8 +97,8 @@ func main() {
 	}
 
 	must(os.MkdirAll("artifacts", 0o755))
-	jsonPath := filepath.Join("artifacts", "crab_he_results.json")
-	mdPath := filepath.Join("artifacts", "crab_he_results.md")
+	jsonPath := filepath.Join("artifacts", "caliber_results.json")
+	mdPath := filepath.Join("artifacts", "caliber_results.md")
 	evidenceJSONPath := filepath.Join("artifacts", "tx_size_evidence.json")
 	evidenceMDPath := filepath.Join("artifacts", "tx_size_evidence.md")
 
@@ -128,7 +128,7 @@ func defaultParams() (*channel.Params, error) {
 	return channel.NewParams(v, vDep, vCol, delta, 144, 288, 6, 3)
 }
 
-func computeCRABHeData(params *channel.Params) ([]txRow, []channel.SerializedMeasurement, clbaSummary, error) {
+func computeCALIBERData(params *channel.Params) ([]txRow, []channel.SerializedMeasurement, clbaSummary, error) {
 	rev := channel.NewRevocationSecret([]byte("0123456789abcdef0123456789abcdef"), 0)
 	h := channel.NewHTLCSecrets([]byte("prea-prea-prea-prea-prea-prea-0000"), []byte("preb-preb-preb-preb-preb-preb-1111"))
 
@@ -183,8 +183,8 @@ func computeCRABHeData(params *channel.Params) ([]txRow, []channel.SerializedMea
 	sum := clbaSummary{
 		CRABRationalWidthSat:  attackAnalysis.Width().String(),
 		CRABByzantineWidthSat: byzAnalysis.Width().String(),
-		CRABHeWidthSat:        defenseAnalysis.WidthLinked().String(),
-		CRABHeInfeasible:      !defenseAnalysis.IsCLBAProfitableLinked(),
+		CALIBERWidthSat:        defenseAnalysis.WidthLinked().String(),
+		CALIBERInfeasible:      !defenseAnalysis.IsCLBAProfitableLinked(),
 		CStarSat:              params.CStar.String(),
 	}
 
@@ -275,7 +275,7 @@ func readLinkedArtifact(path string) (linkedArtifact, error) {
 
 func toMarkdown(r report) string {
 	var sb strings.Builder
-	sb.WriteString("# CRAB-He Evaluation Results (Generated)\n\n")
+	sb.WriteString("# CALIBER Evaluation Results (Generated)\n\n")
 	sb.WriteString("Generated at: " + r.GeneratedAtUTC + "\n\n")
 	sb.WriteString("Reference BTC price for fee conversion: $26,900/BTC (aligned with CRAB).\n\n")
 	sb.WriteString("## 1) Transaction Table\n\n")
@@ -310,12 +310,12 @@ func toMarkdown(r report) string {
 	sb.WriteString("\n## 3) CLBA Summary\n\n")
 	sb.WriteString(fmt.Sprintf("- crab_rational_width_sat: %s\n", r.CLBASummary.CRABRationalWidthSat))
 	sb.WriteString(fmt.Sprintf("- crab_byzantine_width_sat: %s\n", r.CLBASummary.CRABByzantineWidthSat))
-	sb.WriteString(fmt.Sprintf("- crab_he_width_sat: %s\n", r.CLBASummary.CRABHeWidthSat))
-	sb.WriteString(fmt.Sprintf("- crab_he_infeasible: %t\n", r.CLBASummary.CRABHeInfeasible))
+	sb.WriteString(fmt.Sprintf("- caliber_width_sat: %s\n", r.CLBASummary.CALIBERWidthSat))
+	sb.WriteString(fmt.Sprintf("- caliber_infeasible: %t\n", r.CLBASummary.CALIBERInfeasible))
 	sb.WriteString(fmt.Sprintf("- c_star_sat: %s\n", r.CLBASummary.CStarSat))
 
 	sb.WriteString("\n## 4) Coalition Summary\n\n")
-	sb.WriteString("> **DIAGNOSTIC ONLY** — values in this section are interpretive support under the He-HTLC SDRBA standalone assumptions and are NOT claimed as composed-model theorems. Do not cite these rows as security proofs for CRAB-He coalition resistance; see Lemma (Coalition censorship probability) in the paper for the theorem-level statement.\n\n")
+	sb.WriteString("> **DIAGNOSTIC ONLY** — values in this section are interpretive support under the He-HTLC SDRBA standalone assumptions and are NOT claimed as composed-model theorems. Do not cite these rows as security proofs for CALIBER coalition resistance; see Lemma (Coalition censorship probability) in the paper for the theorem-level statement.\n\n")
 	sb.WriteString(fmt.Sprintf("- fee_sat: %d\n", r.CoalitionSummary.FeeSat))
 	sb.WriteString(fmt.Sprintf("- model_note: %s\n", r.CoalitionSummary.ModelNote))
 	sb.WriteString(fmt.Sprintf("- k_max: %d\n", r.CoalitionSummary.KMax))

@@ -1,79 +1,96 @@
 {
   "seed": 42,
-  "trials": 100000,
-  "generatedAtUtc": "2026-05-25T08:26:41Z",
+  "generatedAtUtc": "2026-06-28T07:37:05Z",
   "rows": [
     {
       "rhoH": 0.3,
       "kappa": 3,
-      "trials": 100000,
+      "runs": 100,
+      "trialsPerRun": 1000,
       "analyticalProb": 0.657,
-      "simulatedProb": 0.65667,
+      "simulatedProbMean": 0.65667,
+      "simulatedProbStd": 0.01503333296378419,
       "absDiffPct": 0.05022831050229109
     },
     {
       "rhoH": 0.3,
       "kappa": 5,
-      "trials": 100000,
+      "runs": 100,
+      "trialsPerRun": 1000,
       "analyticalProb": 0.8319300000000001,
-      "simulatedProb": 0.82817,
-      "absDiffPct": 0.4519611024966158
+      "simulatedProbMean": 0.8281699999999997,
+      "simulatedProbStd": 0.010679939138403363,
+      "absDiffPct": 0.45196110249664256
     },
     {
       "rhoH": 0.3,
       "kappa": 7,
-      "trials": 100000,
+      "runs": 100,
+      "trialsPerRun": 1000,
       "analyticalProb": 0.9176457,
-      "simulatedProb": 0.91831,
-      "absDiffPct": 0.07239177386217263
+      "simulatedProbMean": 0.9183100000000006,
+      "simulatedProbStd": 0.008315882394550805,
+      "absDiffPct": 0.07239177386224521
     },
     {
       "rhoH": 0.4,
       "kappa": 3,
-      "trials": 100000,
+      "runs": 100,
+      "trialsPerRun": 1000,
       "analyticalProb": 0.784,
-      "simulatedProb": 0.78386,
-      "absDiffPct": 0.017857142857146555
+      "simulatedProbMean": 0.7838599999999996,
+      "simulatedProbStd": 0.012518003035628335,
+      "absDiffPct": 0.017857142857203197
     },
     {
       "rhoH": 0.4,
       "kappa": 5,
-      "trials": 100000,
+      "runs": 100,
+      "trialsPerRun": 1000,
       "analyticalProb": 0.92224,
-      "simulatedProb": 0.92329,
-      "absDiffPct": 0.11385322692575754
+      "simulatedProbMean": 0.9232900000000002,
+      "simulatedProbStd": 0.007695836536725562,
+      "absDiffPct": 0.11385322692576959
     },
     {
       "rhoH": 0.4,
       "kappa": 7,
-      "trials": 100000,
+      "runs": 100,
+      "trialsPerRun": 1000,
       "analyticalProb": 0.9720064,
-      "simulatedProb": 0.97177,
-      "absDiffPct": 0.02432082751718769
+      "simulatedProbMean": 0.971769999999999,
+      "simulatedProbStd": 0.00487002053383762,
+      "absDiffPct": 0.02432082751729049
     },
     {
       "rhoH": 0.5,
       "kappa": 3,
-      "trials": 100000,
+      "runs": 100,
+      "trialsPerRun": 1000,
       "analyticalProb": 0.875,
-      "simulatedProb": 0.87516,
-      "absDiffPct": 0.018285714285719883
+      "simulatedProbMean": 0.8751600000000002,
+      "simulatedProbStd": 0.010538235146361092,
+      "absDiffPct": 0.018285714285732575
     },
     {
       "rhoH": 0.5,
       "kappa": 5,
-      "trials": 100000,
+      "runs": 100,
+      "trialsPerRun": 1000,
       "analyticalProb": 0.96875,
-      "simulatedProb": 0.9683,
-      "absDiffPct": 0.04645161290322069
+      "simulatedProbMean": 0.9683000000000002,
+      "simulatedProbStd": 0.005098038838612358,
+      "absDiffPct": 0.04645161290320923
     },
     {
       "rhoH": 0.5,
       "kappa": 7,
-      "trials": 100000,
+      "runs": 100,
+      "trialsPerRun": 1000,
       "analyticalProb": 0.9921875,
-      "simulatedProb": 0.99202,
-      "absDiffPct": 0.016881889763778225
+      "simulatedProbMean": 0.9920199999999995,
+      "simulatedProbStd": 0.0026494527736874293,
+      "absDiffPct": 0.016881889763834177
     }
   ]
 }

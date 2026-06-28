@@ -1,11 +1,11 @@
 {
-  "generatedAtUtc": "2026-05-25T08:26:41Z",
+  "generatedAtUtc": "2026-06-28T07:37:05Z",
   "profile": {
     "vSat": 2500000,
     "vDepSat": 500000,
     "vColSat": 500000,
     "baselineCSat": 2500000,
-    "crabHeCStarSat": 3000000,
+    "caliberCStarSat": 3000000,
     "kappa": 3,
     "linkedFeeSat": 500000,
     "linkedBurnSat": 2500000,
@@ -53,8 +53,8 @@
       }
     ]
   },
-  "crabHe": {
-    "scheme": "CRAB-He",
+  "caliber": {
+    "scheme": "CALIBER",
     "bobUbSat": 3000000,
     "minerLbSat": 3000000,
     "widthSat": 0,
@@ -105,7 +105,7 @@
       "outcome": "profitable CLBA interval exists; stale-state and HTLC-side gains fund the bribe"
     },
     {
-      "scheme": "CRAB-He",
+      "scheme": "CALIBER",
       "minerLbSat": 3000000,
       "bobUbSat": 3000000,
       "widthSat": 0,
@@ -117,6 +117,6 @@
   "notes": [
     "The replay is a deterministic incentive-model simulation, not a mainnet incident claim.",
     "Baseline width follows W = v + v_dep - v_col.",
-    "CRAB-He width follows W' = v + v_dep - c_star and is zero at c_star = v + v_dep."
+    "CALIBER width follows W' = v + v_dep - c_star and is zero at c_star = v + v_dep."
   ]
 }
