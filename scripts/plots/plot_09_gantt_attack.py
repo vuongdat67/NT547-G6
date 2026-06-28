@@ -45,6 +45,6 @@ p4 = mpatches.Patch(color='#9467bd', label='Alice Reveals $pre_b$')
 p5 = mpatches.Patch(color='#2ca02c', label='Linked Burn Executed')
 ax.legend(handles=[p1, p2, p3, p4, p5], loc='upper right', ncol=2)
 
-ax.set_title("9. Attack Timeline (Gantt/Broken Barh): CLBA Defeat")
+ax.set_title("Attack Timeline (Gantt/Broken Barh): CLBA Defeat")
 fig.tight_layout()
 fig.savefig(os.path.join(FIGURES_DIR, "plot_09_gantt_attack.png"), dpi=300)

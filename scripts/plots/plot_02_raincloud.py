@@ -35,7 +35,7 @@ df_e2e['System'] = "CALIBER (Regtest)"
 fig, ax = plt.subplots(figsize=(8, 5))
 pt.RainCloud(x="System", y="latency_ms", data=df_e2e, palette=["#2ca02c"],
              bw=.2, width_viol=.6, ax=ax, orient="h", alpha=.65, dodge=True)
-ax.set_title("2. Raincloud Plot: E2E Latency Distribution (Half-Violin + Jitter + Box)")
+ax.set_title("Raincloud Plot: E2E Latency Distribution (Half-Violin + Jitter + Box)")
 ax.set_xlabel("Latency (ms)")
 ax.set_ylabel("")
 fig.tight_layout()

@@ -23,7 +23,7 @@ plt.rcParams.update({
 })
 
 fig = plt.figure(figsize=(8, 6))
-ax = fig.add_subplot(1, 1, 1, xticks=[], yticks=[], title="17. Protocol Fund Flow & Collateral Slash Mechanism")
+ax = fig.add_subplot(1, 1, 1, xticks=[], yticks=[], title="Protocol Fund Flow & Collateral Slash Mechanism")
 
 sankey = Sankey(ax=ax, scale=0.01, offset=0.2, head_angle=150, format='%.0f', unit='%')
 

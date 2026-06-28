@@ -71,7 +71,7 @@ except ImportError:
         ax.annotate(f'M-W {sig}\np={p:.2e}', xy=(x_pos, y_max * 1.05),
                     ha='center', fontsize=8, color='gray')
 
-ax.set_title("8. Statistical Significance (Mann-Whitney U Test)")
+ax.set_title("Statistical Significance (Mann-Whitney U Test)")
 ax.grid(True, axis="y")
 ax.legend(loc='upper left', bbox_to_anchor=(1.02, 1))
 fig.tight_layout()

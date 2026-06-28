@@ -51,7 +51,7 @@ for d in dists:
 fig, ax = plt.subplots(figsize=(6, 4))
 ax.errorbar(leaves_list, means, yerr=[ci_lows, ci_highs], fmt='-o', 
             color="#d62728", capsize=5, capthick=2, linewidth=2, markersize=8)
-ax.set_title("3. Bootstrap CI Error Bars: Overhead vs Leaves (95% CI)")
+ax.set_title("Bootstrap CI Error Bars: Overhead vs Leaves (95% CI)")
 ax.set_xlabel("Number of Leaves")
 ax.set_ylabel("Witness Generation Time (µs)")
 ax.set_xticks(leaves_list)

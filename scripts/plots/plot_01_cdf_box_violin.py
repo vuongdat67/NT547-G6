@@ -46,7 +46,7 @@ axes[2].set_title("(c) Violin Plot (Density Distribution)")
 axes[2].set_ylabel("E2E Latency (ms)")
 axes[2].grid(True, axis='y', linestyle="--", alpha=0.5)
 
-fig.suptitle("1. Standard Latency Metrics Overview (CALIBER Regtest)", y=1.05, fontsize=14)
+fig.suptitle("Standard Latency Metrics Overview (CALIBER Regtest)", y=1.05, fontsize=14)
 fig.tight_layout()
 os.makedirs(FIGURES_DIR, exist_ok=True)
 fig.savefig(os.path.join(FIGURES_DIR, "plot_01_cdf_box_violin.png"), dpi=300, bbox_inches='tight')

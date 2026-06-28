@@ -59,7 +59,7 @@ ax.set_ylim(-0.2, 2.7)
 
 ax.set_xlabel('Epoch / Round')
 ax.set_ylabel('Overhead Factor (Normalized)')
-ax.set_title('16. Multi-Baseline Longitudinal Evaluation')
+ax.set_title('Multi-Baseline Longitudinal Evaluation')
 
 # Put legend outside
 ax.legend(loc='lower left', bbox_to_anchor=(1.0, 0.0), frameon=False)

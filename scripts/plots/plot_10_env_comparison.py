@@ -60,5 +60,5 @@ sns.violinplot(data=df_compare, x='Protocol', y='Latency (ms)', hue='Environment
 ax2.set_title("(b) Split Violin (Regtest vs Signet)")
 ax2.grid(True, axis='y')
 
-fig.suptitle("10. Multi-Environment Robustness (Regtest vs Signet)", fontsize=14, fontweight='bold')
+fig.suptitle("Multi-Environment Robustness (Regtest vs Signet)", fontsize=14, fontweight='bold')
 fig.savefig(os.path.join(FIGURES_DIR, "plot_10_env_comparison.png"), dpi=300)

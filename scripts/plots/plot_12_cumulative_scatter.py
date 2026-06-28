@@ -55,7 +55,7 @@ ax2.set_ylabel("Latency (ms)")
 ax2.grid(True)
 ax2.legend(loc="upper right")
 
-fig1.suptitle("12. Cumulative Throughput & Scatter Analysis", fontsize=14, fontweight='bold')
+fig1.suptitle("Cumulative Throughput & Scatter Analysis", fontsize=14, fontweight='bold')
 os.makedirs(FIGURES_DIR, exist_ok=True)
 out1 = os.path.join(FIGURES_DIR, "plot_12_cumulative_scatter.png")
 fig1.savefig(out1, dpi=300, facecolor="white")

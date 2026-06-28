@@ -50,7 +50,7 @@ df = pd.DataFrame(rows)
 fig, ax = plt.subplots(figsize=(8, 5))
 sns.violinplot(data=df, x="Leaves", y="Time (µs)", hue="Process", split=True,
                inner="box", palette={"Witness Gen": "#d62728", "Script Val": "#2ca02c"}, ax=ax, linewidth=1.2)
-ax.set_title("7. Split Violin Plot: Witness Gen vs Script Val")
+ax.set_title("Split Violin Plot: Witness Gen vs Script Val")
 ax.grid(True, axis="y")
 fig.tight_layout()
 fig.savefig(os.path.join(FIGURES_DIR, "plot_07_split_violin.png"), dpi=300)
