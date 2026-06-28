@@ -1,6 +1,8 @@
 # /// script
 # dependencies = ["matplotlib", "scienceplots"]
 # ///
+from config import FIGURES_DIR, PLOTLY_DIR
+
 import os
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
@@ -45,4 +47,4 @@ ax.legend(handles=[p1, p2, p3, p4, p5], loc='upper right', ncol=2)
 
 ax.set_title("9. Attack Timeline (Gantt/Broken Barh): CLBA Defeat")
 fig.tight_layout()
-fig.savefig("artifacts/publication/plot_09_gantt_attack.png", dpi=300)
+fig.savefig(os.path.join(FIGURES_DIR, "plot_09_gantt_attack.png"), dpi=300)

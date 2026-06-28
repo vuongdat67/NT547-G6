@@ -1,6 +1,8 @@
 # /// script
 # dependencies = ["pandas", "matplotlib", "seaborn"]
 # ///
+from config import FIGURES_DIR, PLOTLY_DIR
+
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -44,4 +46,4 @@ ax.set_ylabel("Deposit Value ($v_{dep}$)")
 ax.set_xlabel("Collateral Value ($v_{col}$)")
 ax.invert_yaxis()
 fig.tight_layout()
-fig.savefig("artifacts/publication/plot_05_heatmap.png", dpi=300)
+fig.savefig(os.path.join(FIGURES_DIR, "plot_05_heatmap.png"), dpi=300)

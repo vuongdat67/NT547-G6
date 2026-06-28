@@ -1,3 +1,5 @@
+from config import FIGURES_DIR, PLOTLY_DIR
+
 import os
 import subprocess
 import glob
@@ -5,9 +7,9 @@ import glob
 def main():
     root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     os.chdir(root_dir)
-    os.makedirs("artifacts/publication", exist_ok=True)
-    os.makedirs("artifacts/publication/plotly", exist_ok=True)
-    
+    os.makedirs(FIGURES_DIR, exist_ok=True)
+    os.makedirs(PLOTLY_DIR, exist_ok=True)
+
     plot_scripts = sorted(glob.glob("scripts/plots/plot_*.py"))
     
     for script in plot_scripts:

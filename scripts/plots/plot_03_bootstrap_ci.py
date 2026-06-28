@@ -1,6 +1,8 @@
 # /// script
 # dependencies = ["numpy", "matplotlib", "scipy", "seaborn"]
 # ///
+from config import FIGURES_DIR, PLOTLY_DIR
+
 import os
 import json
 import numpy as np
@@ -55,4 +57,4 @@ ax.set_ylabel("Witness Generation Time (µs)")
 ax.set_xticks(leaves_list)
 ax.grid(True, linestyle="--", alpha=0.5)
 fig.tight_layout()
-fig.savefig("artifacts/publication/plot_03_bootstrap_ci.png", dpi=300)
+fig.savefig(os.path.join(FIGURES_DIR, "plot_03_bootstrap_ci.png"), dpi=300)

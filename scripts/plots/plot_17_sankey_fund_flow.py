@@ -1,6 +1,8 @@
 # /// script
 # dependencies = ["matplotlib"]
 # ///
+from config import FIGURES_DIR, PLOTLY_DIR
+
 import os
 import matplotlib.pyplot as plt
 from matplotlib.sankey import Sankey
@@ -48,5 +50,5 @@ for diagram in diagrams:
         text.set_fontweight('bold')
 
 plt.tight_layout()
-plt.savefig("artifacts/publication/plot_17_sankey_fund_flow.png", dpi=300)
+plt.savefig(os.path.join(FIGURES_DIR, "plot_17_sankey_fund_flow.png"), dpi=300)
 plt.close()

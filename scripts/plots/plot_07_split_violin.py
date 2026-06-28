@@ -1,6 +1,8 @@
 # /// script
 # dependencies = ["pandas", "matplotlib", "seaborn"]
 # ///
+from config import FIGURES_DIR, PLOTLY_DIR
+
 import os
 import json
 import pandas as pd
@@ -51,4 +53,4 @@ sns.violinplot(data=df, x="Leaves", y="Time (µs)", hue="Process", split=True,
 ax.set_title("7. Split Violin Plot: Witness Gen vs Script Val")
 ax.grid(True, axis="y")
 fig.tight_layout()
-fig.savefig("artifacts/publication/plot_07_split_violin.png", dpi=300)
+fig.savefig(os.path.join(FIGURES_DIR, "plot_07_split_violin.png"), dpi=300)

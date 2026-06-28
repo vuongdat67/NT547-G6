@@ -1,6 +1,8 @@
 # /// script
 # dependencies = ["numpy", "pandas", "matplotlib", "seaborn"]
 # ///
+from config import FIGURES_DIR, PLOTLY_DIR
+
 import os
 import json
 import numpy as np
@@ -41,7 +43,8 @@ sns.set_theme(style="white", rc={
 g = sns.jointplot(data=df, x='Witness Gen Overhead (µs)', y='E2E Latency (ms)', kind="hex", color="#2ca02c", height=6)
 g.plot_marginals(sns.histplot, kde=True, color="#2ca02c")
 g.fig.suptitle("11. Joint Marginal Plot: Latency vs. Overhead", y=1.02, fontsize=14, fontweight='bold')
-g.fig.savefig("artifacts/publication/plot_11_joint_marginal.png", dpi=300, bbox_inches='tight')
+os.makedirs(FIGURES_DIR, exist_ok=True)
+g.fig.savefig(os.path.join(FIGURES_DIR, "plot_11_joint_marginal.png"), dpi=300, bbox_inches='tight')
 
 # Reset to scienceplots just in case for other scripts if run sequentially
 try:

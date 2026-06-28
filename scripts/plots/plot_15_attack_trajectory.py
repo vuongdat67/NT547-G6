@@ -1,6 +1,8 @@
 # /// script
 # dependencies = ["numpy", "pandas", "matplotlib", "seaborn"]
 # ///
+from config import FIGURES_DIR, PLOTLY_DIR
+
 import os
 import numpy as np
 import matplotlib.pyplot as plt
@@ -77,5 +79,5 @@ ax3.grid(True)
 ax3.set_ylim(0.9, 1.01)
 
 plt.tight_layout()
-plt.savefig("artifacts/publication/plot_15_attack_trajectory.png", dpi=300)
+plt.savefig(os.path.join(FIGURES_DIR, "plot_15_attack_trajectory.png"), dpi=300)
 plt.close()

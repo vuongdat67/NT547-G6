@@ -1,6 +1,8 @@
 # /// script
 # dependencies = ["numpy", "pandas", "matplotlib", "seaborn"]
 # ///
+from config import FIGURES_DIR, PLOTLY_DIR
+
 import os
 import pandas as pd
 import numpy as np
@@ -54,6 +56,7 @@ ax2.grid(True)
 ax2.legend(loc="upper right")
 
 fig1.suptitle("12. Cumulative Throughput & Scatter Analysis", fontsize=14, fontweight='bold')
-out1 = "artifacts/publication/plot_12_cumulative_scatter.png"
+os.makedirs(FIGURES_DIR, exist_ok=True)
+out1 = os.path.join(FIGURES_DIR, "plot_12_cumulative_scatter.png")
 fig1.savefig(out1, dpi=300, facecolor="white")
 plt.close(fig1)

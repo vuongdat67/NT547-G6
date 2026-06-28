@@ -1,6 +1,8 @@
 # /// script
 # dependencies = ["numpy", "pandas", "matplotlib", "seaborn"]
 # ///
+from config import FIGURES_DIR, PLOTLY_DIR
+
 import os
 import numpy as np
 import matplotlib.pyplot as plt
@@ -59,5 +61,5 @@ plt.title('18. Multi-Dimensional Protocol Capabilities', size=12, y=1.1)
 plt.legend(loc='upper right', bbox_to_anchor=(1.3, 1.1))
 
 plt.tight_layout()
-plt.savefig("artifacts/publication/plot_18_radar_comparison.png", dpi=300)
+plt.savefig(os.path.join(FIGURES_DIR, "plot_18_radar_comparison.png"), dpi=300)
 plt.close()

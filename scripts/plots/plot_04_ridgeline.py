@@ -1,6 +1,8 @@
 # /// script
 # dependencies = ["numpy", "pandas", "matplotlib", "seaborn"]
 # ///
+from config import FIGURES_DIR, PLOTLY_DIR
+
 import os
 import json
 import numpy as np
@@ -38,4 +40,4 @@ g.set_titles("")
 g.set(yticks=[], ylabel="")
 g.despine(bottom=True, left=True)
 g.fig.suptitle("4. Ridgeline Plot: Success Probability by Kappa (ρ_H = 0.4)", y=1.05)
-g.fig.savefig("artifacts/publication/plot_04_ridgeline.png", dpi=300, bbox_inches="tight")
+g.fig.savefig(os.path.join(FIGURES_DIR, "plot_04_ridgeline.png"), dpi=300, bbox_inches="tight")

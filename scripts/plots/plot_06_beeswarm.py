@@ -1,6 +1,8 @@
 # /// script
 # dependencies = ["pandas", "matplotlib", "seaborn"]
 # ///
+from config import FIGURES_DIR, PLOTLY_DIR
+
 import os
 import json
 import pandas as pd
@@ -47,4 +49,4 @@ sns.swarmplot(data=df_wit_sample, x="Leaves", y="Time (µs)", color="white", edg
 ax.set_title("6. Beeswarm Plot (Violin Overlay): Witness Generation Time")
 ax.grid(True, axis="y")
 fig.tight_layout()
-fig.savefig("artifacts/publication/plot_06_beeswarm.png", dpi=300)
+fig.savefig(os.path.join(FIGURES_DIR, "plot_06_beeswarm.png"), dpi=300)

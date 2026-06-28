@@ -1,6 +1,8 @@
 # /// script
 # dependencies = ["numpy", "pandas", "matplotlib", "seaborn"]
 # ///
+from config import FIGURES_DIR, PLOTLY_DIR
+
 import os
 import numpy as np
 import matplotlib.pyplot as plt
@@ -64,5 +66,5 @@ ax.legend(loc='lower left', bbox_to_anchor=(1.0, 0.0), frameon=False)
 ax.grid(True)
 
 plt.tight_layout()
-plt.savefig("artifacts/publication/plot_16_multi_baseline_longitudinal.png", dpi=300)
+plt.savefig(os.path.join(FIGURES_DIR, "plot_16_multi_baseline_longitudinal.png"), dpi=300)
 plt.close()

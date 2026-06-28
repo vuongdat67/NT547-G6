@@ -1,6 +1,8 @@
 # /// script
 # dependencies = ["numpy", "pandas", "matplotlib", "seaborn"]
 # ///
+from config import FIGURES_DIR, PLOTLY_DIR
+
 import os
 import json
 import pandas as pd
@@ -63,6 +65,6 @@ ax5.set_ylabel("Time (µs)")
 ax5.grid(True, axis='y')
 
 fig2.suptitle("13. Head-to-Head Comparison: Computational Overhead by Tree Depth (1 to 8 Leaves)", fontsize=14, fontweight='bold')
-out2 = "artifacts/publication/plot_13_head_to_head_overhead.png"
+out2 = os.path.join(FIGURES_DIR, "plot_13_head_to_head_overhead.png")
 fig2.savefig(out2, dpi=300, facecolor="white")
 plt.close(fig2)

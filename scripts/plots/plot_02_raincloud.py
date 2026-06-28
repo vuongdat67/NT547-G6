@@ -1,6 +1,8 @@
 # /// script
 # dependencies = ["numpy", "pandas", "matplotlib", "seaborn", "ptitprince"]
 # ///
+from config import FIGURES_DIR, PLOTLY_DIR
+
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -37,4 +39,5 @@ ax.set_title("2. Raincloud Plot: E2E Latency Distribution (Half-Violin + Jitter 
 ax.set_xlabel("Latency (ms)")
 ax.set_ylabel("")
 fig.tight_layout()
-fig.savefig("artifacts/publication/plot_02_raincloud.png", dpi=300)
+os.makedirs(FIGURES_DIR, exist_ok=True)
+fig.savefig(os.path.join(FIGURES_DIR, "plot_02_raincloud.png"), dpi=300)
