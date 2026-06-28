@@ -391,7 +391,7 @@ func buildBurnSplitSpendTx(prevHash chainhash.Hash, prevVout uint32, fundValueSa
 	if fundValueSat <= feeSat {
 		return nil, 0, fmt.Errorf("fundValueSat (%d) must be > feeSat (%d)", fundValueSat, feeSat)
 	}
-	// In CRAB-He notation, fundValueSat models c* on out[2] and feeSat models
+	// In CALIBER notation, fundValueSat models c* on out[2] and feeSat models
 	// v_col paid to the including miner, so the burned residual is c* - v_col.
 	burnValue := fundValueSat - feeSat
 
@@ -415,7 +415,7 @@ func buildBurnOutputScript(hashRjA, hashPreB []byte) ([]byte, error) {
 	// Taproot signatures committing to the concrete prevout (txid:vout) of the
 	// funded out[2] UTXO, so a witness pre-signed for state j cannot authorize
 	// spending a different state's outpoint.
-	marker := append([]byte("crab-he-burn:"), hashRjA[:4]...)
+	marker := append([]byte("caliber-burn:"), hashRjA[:4]...)
 	marker = append(marker, hashPreB[:4]...)
 	b := txscript.NewScriptBuilder()
 	b.AddOp(txscript.OP_RETURN)

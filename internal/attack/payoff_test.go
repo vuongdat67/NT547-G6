@@ -30,12 +30,12 @@ func TestCollateralOnlyInflationDoesNotChangeWidth(t *testing.T) {
 	}
 }
 
-func TestCRABHeBoundaryAtCStar(t *testing.T) {
+func TestCALIBERBoundaryAtCStar(t *testing.T) {
 	p := DefaultProfile()
 
-	below := CRABHeDecision("below", p.VSat, p.VDepSat, p.VColSat, p.CStarSat-1_000, 0)
-	at := CRABHeDecision("at", p.VSat, p.VDepSat, p.VColSat, p.CStarSat, 0)
-	above := CRABHeDecision("above", p.VSat, p.VDepSat, p.VColSat, p.CStarSat+1_000, 0)
+	below := CALIBERDecision("below", p.VSat, p.VDepSat, p.VColSat, p.CStarSat-1_000, 0)
+	at := CALIBERDecision("at", p.VSat, p.VDepSat, p.VColSat, p.CStarSat, 0)
+	above := CALIBERDecision("above", p.VSat, p.VDepSat, p.VColSat, p.CStarSat+1_000, 0)
 
 	if !below.JointlyProfitable || below.WidthSat != 1_000 {
 		t.Fatalf("c<c* should leave a positive interval: %+v", below)

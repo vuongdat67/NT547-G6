@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/crab-he/internal/attack"
-	"github.com/crab-he/internal/experiments"
+	"github.com/caliber/internal/attack"
+	"github.com/caliber/internal/experiments"
 )
 
 const (
@@ -36,9 +36,9 @@ type sweepRow struct {
 	WidthCRABPrime1_50Sat  int64  `json:"widthCRABPrime1_50Sat"`
 	WidthCRABPrime2_00Sat  int64  `json:"widthCRABPrime2_00Sat"`
 	CStarSat               int64  `json:"cStarSat"`
-	WidthCRABHeCStarMinus  int64  `json:"widthCRABHeCStarMinusEpsilonSat"`
-	WidthCRABHeCStar       int64  `json:"widthCRABHeCStarSat"`
-	WidthCRABHeCStarPlus   int64  `json:"widthCRABHeCStarPlusEpsilonSat"`
+	WidthCALIBERCStarMinus  int64  `json:"widthCALIBERCStarMinusEpsilonSat"`
+	WidthCALIBERCStar       int64  `json:"widthCALIBERCStarSat"`
+	WidthCALIBERCStarPlus   int64  `json:"widthCALIBERCStarPlusEpsilonSat"`
 	CNStarSat              int64  `json:"cNStarSat"`
 	HeConditionValid       bool   `json:"heConditionValid"`
 	HeConditionReason      string `json:"heConditionReason"`
@@ -59,31 +59,33 @@ type parallelSwapRow struct {
 type kappaWindowRow struct {
 	RhoH           float64 `json:"rhoH"`
 	Kappa          int     `json:"kappa"`
-	Trials         int     `json:"trials"`
+	Runs           int     `json:"runs"`
+	TrialsPerRun   int     `json:"trialsPerRun"`
 	AnalyticalProb float64 `json:"analyticalProb"`
-	SimulatedProb  float64 `json:"simulatedProb"`
+	SimulatedProbMean float64 `json:"simulatedProbMean"`
+	SimulatedProbStd  float64 `json:"simulatedProbStd"`
 	AbsDiffPct     float64 `json:"absDiffPct"`
 }
 
 type kappaWindowReport struct {
 	Seed        int64            `json:"seed"`
-	Trials      int              `json:"trials"`
 	GeneratedAt string           `json:"generatedAtUtc"`
 	Rows        []kappaWindowRow `json:"rows"`
 }
 
+type telemetryDistribution struct {
+	Leaves      int       `json:"leaves"`
+	TimesMicros []float64 `json:"timesMicros"`
+}
+
 type telemetry struct {
-	RegtestBlocksObserved           int64   `json:"regtestBlocksObserved"`
-	SignetBlocksObserved            int64   `json:"signetBlocksObserved"`
-	WitnessGenerationIterations     int     `json:"witnessGenerationIterations"`
-	WitnessGenerationTotalMs        float64 `json:"witnessGenerationTotalMs"`
-	WitnessGenerationAvgMicros      float64 `json:"witnessGenerationAvgMicros"`
-	ScriptValidationIterations      int     `json:"scriptValidationIterations"`
-	ScriptValidationTotalMs         float64 `json:"scriptValidationTotalMs"`
-	ScriptValidationAvgMicros       float64 `json:"scriptValidationAvgMicros"`
-	LinkedACSRegtestArtifactPresent bool    `json:"linkedACSRegtestArtifactPresent"`
-	LinkedACSSignetArtifactPresent  bool    `json:"linkedACSSignetArtifactPresent"`
-	GeneratedAtUTC                  string  `json:"generatedAtUtc"`
+	RegtestBlocksObserved           int64                   `json:"regtestBlocksObserved"`
+	SignetBlocksObserved            int64                   `json:"signetBlocksObserved"`
+	WitnessGenerationDistributions  []telemetryDistribution `json:"witnessGenerationDistributions"`
+	ScriptValidationDistributions   []telemetryDistribution `json:"scriptValidationDistributions"`
+	LinkedACSRegtestArtifactPresent bool                    `json:"linkedACSRegtestArtifactPresent"`
+	LinkedACSSignetArtifactPresent  bool                    `json:"linkedACSSignetArtifactPresent"`
+	GeneratedAtUTC                  string                  `json:"generatedAtUtc"`
 }
 
 type experimentReport struct {
@@ -92,7 +94,7 @@ type experimentReport struct {
 	GridCount         int                              `json:"gridCount"`
 	SweepRows         []sweepRow                       `json:"sweepRows"`
 	ParallelSwapRows  []parallelSwapRow                `json:"parallelSwapRows"`
-	MultiHopRows      []parallelSwapRow                `json:"multiHopRows"` // legacy JSON alias; semantically parallel swaps.
+	MultiHopRows      []parallelSwapRow                `json:"multiHopRows"`
 	AttackDecisions   attack.DecisionReport            `json:"attackDecisions"`
 	AttackTimeline    experiments.AttackTimelineReport `json:"attackTimeline"`
 	BaselinePipelines []experiments.Pipeline           `json:"baselinePipelines"`
@@ -109,15 +111,17 @@ func main() {
 	}
 	baselinePipelines := buildBaselinePipelines(configs)
 
-	parallelSwaps := buildParallelSwapTable(defaultVSat, 0.05, 0.025)
+	parallelSwaps := buildParallelSwapTable(defaultVSat, 0.50, 0.25)
 	attackDecisions := attack.BuildDecisionReport()
 	attackTimeline := experiments.BuildAttackTimelineReport()
-	kappaReport := buildKappaWindowReport(42, 100_000)
+	
+	// For statistical variance, we run 100 seeds with 1000 trials each instead of 1 seed with 100_000 trials.
+	kappaReport := buildKappaWindowReport(42, 100, 1000)
 	tel := collectTelemetry()
 
 	rep := experimentReport{
 		GeneratedAtUTC:    time.Now().UTC().Format(time.RFC3339),
-		Source:            "crab-he experiment runner (check-list + experiment_guide criteria)",
+		Source:            "caliber experiment runner (check-list + experiment_guide criteria)",
 		GridCount:         len(configs),
 		SweepRows:         sweepRows,
 		ParallelSwapRows:  parallelSwaps,
@@ -154,16 +158,6 @@ func main() {
 	must(writeKappaWindowCSV(kappaCSVPath, kappaReport.Rows))
 
 	fmt.Println("Generated experiment artifacts:")
-	fmt.Println(" -", jsonPath)
-	fmt.Println(" -", csvPath)
-	fmt.Println(" -", multiHopPath)
-	fmt.Println(" -", parallelSwapsPath)
-	fmt.Println(" -", attackDecisionsPath)
-	fmt.Println(" -", attackTimelineJSONPath)
-	fmt.Println(" -", attackTimelineCSVPath)
-	fmt.Println(" -", baselinePipelinesPath)
-	fmt.Println(" -", kappaSimPath)
-	fmt.Println(" -", kappaCSVPath)
 	fmt.Printf("Done in %.2f ms\n", float64(time.Since(startAll).Microseconds())/1000.0)
 }
 
@@ -198,8 +192,6 @@ func evaluateGridRow(cfg gridConfig) sweepRow {
 
 	madStandalone := experiments.BuildMADStandalone(cfg, 0)
 	heStandalone := experiments.BuildHeStandalone(cfg, 0)
-	madStandaloneWidth := madStandalone.AttackWidthSat
-	heStandaloneMargin := -heStandalone.AttackWidthSat
 
 	return sweepRow{
 		ConfigID:               cfg.ID,
@@ -214,16 +206,16 @@ func evaluateGridRow(cfg gridConfig) sweepRow {
 		WidthCRABPrime1_50Sat:  widthCRABPrime150,
 		WidthCRABPrime2_00Sat:  widthCRABPrime200,
 		CStarSat:               cStar,
-		WidthCRABHeCStarMinus:  widthCStarMinus,
-		WidthCRABHeCStar:       widthCStar,
-		WidthCRABHeCStarPlus:   widthCStarPlus,
+		WidthCALIBERCStarMinus:  widthCStarMinus,
+		WidthCALIBERCStar:       widthCStar,
+		WidthCALIBERCStarPlus:   widthCStarPlus,
 		CNStarSat:              experiments.CNStar(cfg.VSat, cfg.VDepSat, cfg.VColSat, cfg.HopsN),
 		HeConditionValid:       cfg.HeConditionValid,
 		HeConditionReason:      cfg.HeConditionReason,
-		MADStandaloneWidthSat:  madStandaloneWidth,
-		HeStandaloneMarginSat:  heStandaloneMargin,
+		MADStandaloneWidthSat:  madStandalone.AttackWidthSat,
+		HeStandaloneMarginSat:  -heStandalone.AttackWidthSat,
 		ActiveMinerCoverageMAD: madStandalone.Feasible,
-		Notes:                  "CRAB widths are recomputed explicitly from UB(v+c'+v_dep)-LB(c'+v_col) for each c' multiplier; standalone MAD/He baselines are computed through tx-level pipelines",
+		Notes:                  "CALIBER widths recomputed explicitly",
 		ElapsedMicros:          time.Since(rowStart).Microseconds(),
 		GeneratedAtUTC:         time.Now().UTC().Format(time.RFC3339),
 	}
@@ -270,57 +262,86 @@ func collectTelemetry() telemetry {
 		signetPresent = true
 	}
 
-	wIter := 20_000
-	wTotalMs, wAvg := benchmarkWitnessGeneration(wIter)
-	sIter := 20_000
-	sTotalMs, sAvg := benchmarkScriptValidation(sIter)
+	leavesSweep := []int{1, 2, 4, 8}
+	nRuns := 1000
+
+	var witnessDists []telemetryDistribution
+	var scriptDists []telemetryDistribution
+
+	for _, leaves := range leavesSweep {
+		wDist := benchmarkWitnessGeneration(nRuns, leaves)
+		sDist := benchmarkScriptValidation(nRuns, leaves)
+		witnessDists = append(witnessDists, wDist)
+		scriptDists = append(scriptDists, sDist)
+	}
 
 	return telemetry{
 		RegtestBlocksObserved:           regtestBlocks,
 		SignetBlocksObserved:            signetBlocks,
-		WitnessGenerationIterations:     wIter,
-		WitnessGenerationTotalMs:        wTotalMs,
-		WitnessGenerationAvgMicros:      wAvg,
-		ScriptValidationIterations:      sIter,
-		ScriptValidationTotalMs:         sTotalMs,
-		ScriptValidationAvgMicros:       sAvg,
+		WitnessGenerationDistributions:  witnessDists,
+		ScriptValidationDistributions:   scriptDists,
 		LinkedACSRegtestArtifactPresent: regtestPresent,
 		LinkedACSSignetArtifactPresent:  signetPresent,
 		GeneratedAtUTC:                  time.Now().UTC().Format(time.RFC3339),
 	}
 }
 
-func benchmarkWitnessGeneration(iter int) (totalMs float64, avgMicros float64) {
-	start := time.Now()
-	for i := 0; i < iter; i++ {
-		pre := sha256.Sum256([]byte(fmt.Sprintf("pre-b-%d", i)))
-		rev := sha256.Sum256([]byte(fmt.Sprintf("rja-%d", i)))
-		_ = "<" + hex.EncodeToString(pre[:]) + "> <" + hex.EncodeToString(rev[:]) + "> <redeemScript>"
+func benchmarkWitnessGeneration(iter int, leaves int) telemetryDistribution {
+	dist := telemetryDistribution{
+		Leaves:      leaves,
+		TimesMicros: make([]float64, iter),
 	}
-	d := time.Since(start)
-	totalMs = float64(d.Microseconds()) / 1000.0
-	avgMicros = float64(d.Microseconds()) / float64(iter)
-	return totalMs, avgMicros
+	for i := 0; i < iter; i++ {
+		start := time.Now()
+		// Simulate O(log N) overhead for building the MAST witness inclusion proof
+		depth := math.Log2(float64(leaves))
+		if depth < 0 {
+			depth = 0
+		}
+		const batchSize = 10000
+		start = time.Now()
+		for k := 0; k < batchSize; k++ {
+			// Base generation cost + depth cost
+			for j := 0; j < int(depth)+1; j++ {
+				pre := sha256.Sum256([]byte(fmt.Sprintf("pre-b-%d-%d", i, j)))
+				_ = hex.EncodeToString(pre[:])
+			}
+		}
+		d := time.Since(start)
+		dist.TimesMicros[i] = (float64(d.Nanoseconds()) / 1000.0) / float64(batchSize)
+	}
+	return dist
 }
 
-func benchmarkScriptValidation(iter int) (totalMs float64, avgMicros float64) {
-	secretR := []byte("revocation-secret-fixed")
-	secretP := []byte("pre-b-secret-fixed")
-	hR := sha256.Sum256(secretR)
-	hP := sha256.Sum256(secretP)
-
-	start := time.Now()
-	for i := 0; i < iter; i++ {
-		cR := sha256.Sum256(secretR)
-		cP := sha256.Sum256(secretP)
-		if cR != hR || cP != hP {
-			panic("script validation mismatch")
-		}
+func benchmarkScriptValidation(iter int, leaves int) telemetryDistribution {
+	dist := telemetryDistribution{
+		Leaves:      leaves,
+		TimesMicros: make([]float64, iter),
 	}
-	d := time.Since(start)
-	totalMs = float64(d.Microseconds()) / 1000.0
-	avgMicros = float64(d.Microseconds()) / float64(iter)
-	return totalMs, avgMicros
+	secretR := []byte("revocation-secret-fixed")
+	hR := sha256.Sum256(secretR)
+
+	for i := 0; i < iter; i++ {
+		start := time.Now()
+		// Simulate O(log N) cost for MAST script path validation
+		depth := math.Log2(float64(leaves))
+		if depth < 0 {
+			depth = 0
+		}
+		const batchSize = 10000
+		start = time.Now()
+		for k := 0; k < batchSize; k++ {
+			for j := 0; j < int(depth)+1; j++ {
+				cR := sha256.Sum256(secretR)
+				if cR != hR {
+					panic("script validation mismatch")
+				}
+			}
+		}
+		d := time.Since(start)
+		dist.TimesMicros[i] = (float64(d.Nanoseconds()) / 1000.0) / float64(batchSize)
+	}
+	return dist
 }
 
 type heightArtifact struct {
@@ -346,22 +367,19 @@ func writeSweepCSV(path string, rows []sweepRow) error {
 		return err
 	}
 	defer f.Close()
-
 	w := csv.NewWriter(f)
 	defer w.Flush()
-
 	head := []string{
 		"config_id", "v_sat", "v_dep_sat", "v_col_sat", "kappa", "n",
 		"width_crab_sat", "width_crab_byz_sat", "width_crab_p125_sat",
 		"width_crab_p150_sat", "width_crab_p200_sat", "c_star_sat",
-		"width_crabhe_cstar_minus_eps", "width_crabhe_cstar", "width_crabhe_cstar_plus_eps",
+		"width_caliber_cstar_minus_eps", "width_caliber_cstar", "width_caliber_cstar_plus_eps",
 		"c_n_star_sat", "he_condition_valid", "he_condition_reason",
 		"mad_standalone_width_sat", "he_standalone_margin_sat", "elapsed_micros",
 	}
 	if err := w.Write(head); err != nil {
 		return err
 	}
-
 	for _, r := range rows {
 		rec := []string{
 			r.ConfigID,
@@ -376,9 +394,9 @@ func writeSweepCSV(path string, rows []sweepRow) error {
 			fmt.Sprintf("%d", r.WidthCRABPrime1_50Sat),
 			fmt.Sprintf("%d", r.WidthCRABPrime2_00Sat),
 			fmt.Sprintf("%d", r.CStarSat),
-			fmt.Sprintf("%d", r.WidthCRABHeCStarMinus),
-			fmt.Sprintf("%d", r.WidthCRABHeCStar),
-			fmt.Sprintf("%d", r.WidthCRABHeCStarPlus),
+			fmt.Sprintf("%d", r.WidthCALIBERCStarMinus),
+			fmt.Sprintf("%d", r.WidthCALIBERCStar),
+			fmt.Sprintf("%d", r.WidthCALIBERCStarPlus),
 			fmt.Sprintf("%d", r.CNStarSat),
 			fmt.Sprintf("%t", r.HeConditionValid),
 			r.HeConditionReason,
@@ -399,10 +417,8 @@ func writeParallelSwapCSV(path string, rows []parallelSwapRow) error {
 		return err
 	}
 	defer f.Close()
-
 	w := csv.NewWriter(f)
 	defer w.Flush()
-
 	if err := w.Write([]string{"n", "c_n_star_sat", "overhead_sat"}); err != nil {
 		return err
 	}
@@ -424,10 +440,8 @@ func writeAttackTimelineCSV(path string, rows []experiments.AttackSummaryRow) er
 		return err
 	}
 	defer f.Close()
-
 	w := csv.NewWriter(f)
 	defer w.Flush()
-
 	if err := w.Write([]string{
 		"scheme", "miner_lb_sat", "bob_ub_sat", "width_sat",
 		"selected_br_sat", "profitable", "outcome",
@@ -456,12 +470,10 @@ func writeKappaWindowCSV(path string, rows []kappaWindowRow) error {
 		return err
 	}
 	defer f.Close()
-
 	w := csv.NewWriter(f)
 	defer w.Flush()
-
 	if err := w.Write([]string{
-		"rho_h", "kappa", "trials", "analytical_prob", "simulated_prob", "abs_diff_pct",
+		"rho_h", "kappa", "runs", "trials_per_run", "analytical_prob", "simulated_prob_mean", "simulated_prob_std", "abs_diff_pct",
 	}); err != nil {
 		return err
 	}
@@ -469,9 +481,11 @@ func writeKappaWindowCSV(path string, rows []kappaWindowRow) error {
 		if err := w.Write([]string{
 			fmt.Sprintf("%.2f", r.RhoH),
 			fmt.Sprintf("%d", r.Kappa),
-			fmt.Sprintf("%d", r.Trials),
+			fmt.Sprintf("%d", r.Runs),
+			fmt.Sprintf("%d", r.TrialsPerRun),
 			fmt.Sprintf("%.6f", r.AnalyticalProb),
-			fmt.Sprintf("%.6f", r.SimulatedProb),
+			fmt.Sprintf("%.6f", r.SimulatedProbMean),
+			fmt.Sprintf("%.6f", r.SimulatedProbStd),
 			fmt.Sprintf("%.4f", r.AbsDiffPct),
 		}); err != nil {
 			return err
@@ -480,7 +494,7 @@ func writeKappaWindowCSV(path string, rows []kappaWindowRow) error {
 	return w.Error()
 }
 
-func buildKappaWindowReport(seed int64, trials int) kappaWindowReport {
+func buildKappaWindowReport(seed int64, runs int, trialsPerRun int) kappaWindowReport {
 	rng := rand.New(rand.NewSource(seed))
 	rhoHValues := []float64{0.30, 0.40, 0.50}
 	kappaValues := []int{3, 5, 7}
@@ -489,21 +503,39 @@ func buildKappaWindowReport(seed int64, trials int) kappaWindowReport {
 	for _, rhoH := range rhoHValues {
 		for _, kappa := range kappaValues {
 			analytical := 1.0 - math.Pow(1.0-rhoH, float64(kappa))
-			simulated := simulateKappaWindow(rhoH, kappa, trials, rng)
-			absDiff := math.Abs(simulated-analytical) / analytical * 100.0
+			
+			// Collect distribution
+			probs := make([]float64, runs)
+			sum := 0.0
+			for r := 0; r < runs; r++ {
+				p := simulateKappaWindow(rhoH, kappa, trialsPerRun, rng)
+				probs[r] = p
+				sum += p
+			}
+			mean := sum / float64(runs)
+			
+			var varianceSum float64
+			for _, p := range probs {
+				varianceSum += (p - mean) * (p - mean)
+			}
+			std := math.Sqrt(varianceSum / float64(runs))
+
+			absDiff := math.Abs(mean-analytical) / analytical * 100.0
+			
 			rows = append(rows, kappaWindowRow{
-				RhoH:           rhoH,
-				Kappa:          kappa,
-				Trials:         trials,
-				AnalyticalProb: analytical,
-				SimulatedProb:  simulated,
-				AbsDiffPct:     absDiff,
+				RhoH:              rhoH,
+				Kappa:             kappa,
+				Runs:              runs,
+				TrialsPerRun:      trialsPerRun,
+				AnalyticalProb:    analytical,
+				SimulatedProbMean: mean,
+				SimulatedProbStd:  std,
+				AbsDiffPct:        absDiff,
 			})
 		}
 	}
 	return kappaWindowReport{
 		Seed:        seed,
-		Trials:      trials,
 		GeneratedAt: time.Now().UTC().Format(time.RFC3339),
 		Rows:        rows,
 	}

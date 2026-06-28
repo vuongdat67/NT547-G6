@@ -55,14 +55,14 @@ func BuildDecisionReport() DecisionReport {
 		Decisions: []Decision{
 			BaselineDecision("Naive CRAB+He", p.VSat, p.CSat, p.VDepSat, p.VColSat, 0),
 			BaselineDecision("Collateral-only c'=2c", p.VSat, 2*p.CSat, p.VDepSat, p.VColSat, 0),
-			CRABHeDecision("CRAB-He c*=v+v_dep-eps", p.VSat, p.VDepSat, p.VColSat, p.CStarSat-1_000, 0),
-			CRABHeDecision("CRAB-He c*=v+v_dep", p.VSat, p.VDepSat, p.VColSat, p.CStarSat, 0),
-			CRABHeDecision("CRAB-He c*=v+v_dep+eps", p.VSat, p.VDepSat, p.VColSat, p.CStarSat+1_000, 0),
+			CALIBERDecision("CALIBER c*=v+v_dep-eps", p.VSat, p.VDepSat, p.VColSat, p.CStarSat-1_000, 0),
+			CALIBERDecision("CALIBER c*=v+v_dep", p.VSat, p.VDepSat, p.VColSat, p.CStarSat, 0),
+			CALIBERDecision("CALIBER c*=v+v_dep+eps", p.VSat, p.VDepSat, p.VColSat, p.CStarSat+1_000, 0),
 		},
 		Notes: []string{
 			"Baseline uses Bob-UB = v+c+v_dep and Miner-LB = c+v_col.",
 			"Collateral-only inflation preserves width because c' appears on both sides.",
-			"CRAB-He uses Bob-UB = v+v_dep and Miner-LB = c; at c=v+v_dep the bribe interval is empty.",
+			"CALIBER uses Bob-UB = v+v_dep and Miner-LB = c; at c=v+v_dep the bribe interval is empty.",
 		},
 	}
 }
@@ -73,7 +73,7 @@ func BaselineDecision(scheme string, vSat, cSat, vDepSat, vColSat, offeredBRSat 
 	return decide(scheme, ub, lb, offeredBRSat, "BR >= c+v_col and BR < v+c+v_dep", "Bob offers BR to one actively rational miner to censor CRAB revocation and HTLC honest paths.")
 }
 
-func CRABHeDecision(scheme string, vSat, vDepSat, vColSat, cSat, offeredBRSat int64) Decision {
+func CALIBERDecision(scheme string, vSat, vDepSat, vColSat, cSat, offeredBRSat int64) Decision {
 	_ = vColSat
 	ub := vSat + vDepSat
 	lb := cSat

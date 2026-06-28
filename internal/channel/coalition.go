@@ -1,4 +1,4 @@
-// Package channel contains coalition-aware CRAB-He analysis helpers.
+// Package channel contains coalition-aware CALIBER analysis helpers.
 //
 // NOTE: This diagnostic predates the censorship-based Lemma (Coalition
 // censorship probability) in the paper. It is retained for backward-
@@ -8,12 +8,12 @@
 //
 // This file provides an INTERPRETIVE DIAGNOSTIC for coalition-sized
 // attacker groups, borrowing the He-HTLC standalone coalition-scaling floor
-// (k * v_col) rather than the composed CRAB-He single-miner floor c* used
+// (k * v_col) rather than the composed CALIBER single-miner floor c* used
 // in Theorem 2 of the paper. The diagnostic exists to make artifact outputs
 // readable against the original He-HTLC coalition convention; it is NOT a
 // replacement for the composed single-miner security proof in Theorem 2.
 //
-// If you are looking for the CRAB-He composed security bound, see the
+// If you are looking for the CALIBER composed security bound, see the
 // single-miner CLBAAnalysis in params.go (BRLowerBoundLinked and
 // BRUpperBoundLinked).
 package channel
@@ -62,7 +62,7 @@ func NewCoalitionAnalysis(p *Params, k int, lambdaK float64, feeSat int64) (*Coa
 // accept under the He-HTLC standalone coalition-scaling convention,
 // namely k * v_col. Note
 // this is the STANDALONE He-HTLC coalition floor, not the composed
-// CRAB-He single-miner floor c* used in Theorem 2.
+// CALIBER single-miner floor c* used in Theorem 2.
 func (a *CoalitionAnalysis) MinerLBCoalition() *big.Int {
 	return new(big.Int).Mul(big.NewInt(int64(a.K)), a.Params.VCol)
 }
@@ -92,7 +92,7 @@ func (a *CoalitionAnalysis) IsCLBAFeasibleCoalition() bool {
 // It is anchored at the single-miner burn-based bound c* = v + v_dep and
 // reduced by (k-1) * v_col to visualize a naive extrapolation trend.
 // This value is NOT a theorem-level security threshold in the composed
-// CRAB-He model.
+// CALIBER model.
 func (a *CoalitionAnalysis) DiagnosticCStarReduction() *big.Int {
 	if a.K <= 1 {
 		return new(big.Int).Set(a.Params.CStar)

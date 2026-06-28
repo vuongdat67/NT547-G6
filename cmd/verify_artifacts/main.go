@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/crab-he/internal/attack"
-	"github.com/crab-he/internal/experiments"
+	"github.com/caliber/internal/attack"
+	"github.com/caliber/internal/experiments"
 )
 
 func main() {
@@ -28,14 +28,14 @@ func main() {
 		"c_star must equal v+v_dep in attack_decisions.json")
 	assert(hasDecision(decisions.Decisions, "Naive CRAB+He", true, -1),
 		"Naive CRAB+He decision must be jointly profitable")
-	assert(hasDecision(decisions.Decisions, "CRAB-He c*=v+v_dep", false, 0),
-		"CRAB-He at c*=v+v_dep must be infeasible")
+	assert(hasDecision(decisions.Decisions, "CALIBER c*=v+v_dep", false, 0),
+		"CALIBER at c*=v+v_dep must be infeasible")
 
 	var timeline experiments.AttackTimelineReport
 	readJSON(filepath.Join(base, "attack_timeline.json"), &timeline)
 	assert(timeline.Baseline.WidthSat > 0, "baseline attack_timeline width must be positive")
-	assert(timeline.CRABHe.WidthSat == 0, "CRAB-He attack_timeline width must be zero")
-	assert(timeline.Profile.CRABHeCStarSat == timeline.Profile.VSat+timeline.Profile.VDepSat,
+	assert(timeline.CALIBER.WidthSat == 0, "CALIBER attack_timeline width must be zero")
+	assert(timeline.Profile.CALIBERCStarSat == timeline.Profile.VSat+timeline.Profile.VDepSat,
 		"attack_timeline c_star must equal v+v_dep")
 
 	checkCSVNonEmpty(filepath.Join(base, "parameter_sweep.csv"))

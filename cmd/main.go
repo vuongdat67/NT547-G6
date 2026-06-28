@@ -1,4 +1,4 @@
-// CRAB-He evaluation entry point.
+// CALIBER evaluation entry point.
 package main
 
 import (
@@ -8,12 +8,12 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/crab-he/internal/channel"
-	"github.com/crab-he/internal/htlc"
+	"github.com/caliber/internal/channel"
+	"github.com/caliber/internal/htlc"
 )
 
 func main() {
-	fmt.Println("=== CRAB-He Evaluation ===")
+	fmt.Println("=== CALIBER Evaluation ===")
 	fmt.Println("Securing Lightning Payment Channels Against Actively Rational Miners")
 	fmt.Println()
 
@@ -45,7 +45,7 @@ func main() {
 	fmt.Println("[CRAB Byzantine c=v]: " + byzAnalysis.Report())
 
 	defenseAnalysis, _ := channel.NewCLBAAnalysis(params, 0.3, params.CStar)
-	fmt.Println("[CRAB-He c*=v+v_dep]: " + defenseAnalysis.ReportLinked())
+	fmt.Println("[CALIBER c*=v+v_dep]: " + defenseAnalysis.ReportLinked())
 
 	fmt.Println("--- Step 3: Key Generation ---")
 	alicePK := randomHex(32)
@@ -138,7 +138,7 @@ func printEvaluationTable(p *channel.Params, commitNoHTLCSize, commitWithHTLCSiz
 		{"tx_spend_A (honest close)", 418},
 		{"tx_revoke_B (punishment B)", 192},
 		{"tx_revoke_ACS_std (punishment miner)", 192},
-		{"tx_revoke_ACS_linked (CRAB-He)", 246},
+		{"tx_revoke_ACS_linked (CALIBER)", 246},
 		{"tx_dep_A (He-HTLC dep-A)", 190},
 		{"tx_dep_B (He-HTLC dep-B)", 172},
 		{"tx_col_B (He-HTLC col-B)", 152},
@@ -157,7 +157,7 @@ func printEvaluationTable(p *channel.Params, commitNoHTLCSize, commitWithHTLCSiz
 	fmt.Printf("Collateral comparison (v=%d sat):\n", sat(p.V))
 	fmt.Printf("  CRAB rational  c = v/2    = %d sat (%.4f BTC)\n", sat(p.V)/2, float64(sat(p.V)/2)/1e8)
 	fmt.Printf("  CRAB Byzantine c = v      = %d sat (%.4f BTC)\n", sat(p.V), float64(sat(p.V))/1e8)
-	fmt.Printf("  CRAB-He        c*=v+v_dep       = %d sat (%.4f BTC)\n", sat(p.CStar), float64(sat(p.CStar))/1e8)
+	fmt.Printf("  CALIBER        c*=v+v_dep       = %d sat (%.4f BTC)\n", sat(p.CStar), float64(sat(p.CStar))/1e8)
 	fmt.Printf("  Overhead vs CRAB Byzantine: +%d sat (+%.1f%%)\n", sat(p.OverheadAboveCRABByzantine()), float64(sat(p.OverheadAboveCRABByzantine()))*100/float64(sat(p.V)))
 	fmt.Println()
 
