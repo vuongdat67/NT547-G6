@@ -68,7 +68,7 @@ Evidence:
 - `scripts/deploy_linked_acs.go`
 - `artifacts/linked_acs_regtest.json`
 - `artifacts/linked_acs_signet.json`
-- `artifacts/crab_he_results.json`
+- `artifacts/caliber_results.json`
 
 Confirmed analytical profile:
 
